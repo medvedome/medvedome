@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Request a stay at Medve Dome and read booking details, policies, amenities and contact information.">
+  <title>Book Medve Dome | Booking Request</title>
+  <link rel="preconnect" href="https://static.wixstatic.com">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="booking-page">
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Medve Dome home">
+      <span class="brand-mark">MD</span>
+      <span>Medve Dome</span>
+    </a>
+
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="index.html#about">About</a>
+      <a href="index.html#dome">The Dome</a>
+      <a href="index.html#services">Services</a>
+      <a href="index.html#gallery">Gallery</a>
+      <a href="index.html#see-do">See & Do</a>
+      <a href="index.html#faq">FAQ</a>
+      <a class="nav-cta" href="booking.html">Book Now</a>
+    </nav>
+
+    <div class="header-actions">
+      <div class="language-switch" aria-label="Choose language">
+        <button type="button" class="is-active" data-lang="en">EN</button>
+        <button type="button" data-lang="ro">RO</button>
+        <button type="button" data-lang="hu">HU</button>
+      </div>
+
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="booking-hero section">
+      <p class="section-kicker">Booking Request</p>
+      <h1>Book Medve Dome</h1>
+      <p>Check the important details, choose your preferred dates and send us a request. We will get in touch with you about the next steps.</p>
+    </section>
+
+    <section id="booking" class="section booking">
+      <div class="booking-copy">
+        <div class="room-gallery">
+          <div class="room-main-image">
+            <img src="https://static.wixstatic.com/media/76b5a7_043f3f441a4f4e49bab7b5288ff5ded5~mv2.jpg/v1/fill/w_980,h_720,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/76b5a7_043f3f441a4f4e49bab7b5288ff5ded5~mv2.jpg" alt="Interior of Medve Dome">
+          </div>
+          <div class="room-thumbs" aria-label="Room photos">
+            <button type="button" class="is-active"><img src="https://static.wixstatic.com/media/76b5a7_043f3f441a4f4e49bab7b5288ff5ded5~mv2.jpg/v1/fill/w_317,h_422,q_90,enc_avif,quality_auto/76b5a7_043f3f441a4f4e49bab7b5288ff5ded5~mv2.jpg" alt="Dome interior"></button>
+            <button type="button"><img src="https://static.wixstatic.com/media/76b5a7_3f4467d954dd48f3a24462f1451b1af0~mv2.jpg/v1/fill/w_322,h_402,q_90,enc_avif,quality_auto/76b5a7_3f4467d954dd48f3a24462f1451b1af0~mv2.jpg" alt="Bed area"></button>
+            <button type="button"><img src="https://static.wixstatic.com/media/76b5a7_fa08edb2ad9841a08efcfe2e239b50ea~mv2.jpg/v1/fill/w_402,h_402,q_90,enc_avif,quality_auto/76b5a7_fa08edb2ad9841a08efcfe2e239b50ea~mv2.jpg" alt="Interior detail"></button>
+            <button type="button"><img src="https://static.wixstatic.com/media/76b5a7_a1846f7d5dbf41f7b77b6aba9cb26d57~mv2.jpeg/v1/fill/w_317,h_422,q_90,enc_avif,quality_auto/76b5a7_a1846f7d5dbf41f7b77b6aba9cb26d57~mv2.jpeg" alt="Kitchen area"></button>
+            <button type="button"><img src="https://static.wixstatic.com/media/76b5a7_48525264c83a4f2dac6b7bf07782eff2~mv2.jpg/v1/fill/w_316,h_422,q_90,enc_avif,quality_auto/76b5a7_48525264c83a4f2dac6b7bf07782eff2~mv2.jpg" alt="Bathroom detail"></button>
+          </div>
+        </div>
+      </div>
+
+      <aside class="booking-side">
+        <form id="booking-form" class="booking-form" action="https://formsubmit.co/info.medvedome@gmail.com" method="POST">
+          <input type="hidden" name="_subject" value="Booking request for Medve Dome">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_captcha" value="false">
+          <div class="booking-price">
+            <span>From</span>
+            <strong>650 LEI</strong>
+            <span>Per Night</span>
+          </div>
+          <label>
+            Full name
+            <input type="text" name="name" autocomplete="name" required>
+          </label>
+          <label>
+            Preferred contact
+            <select name="preferred">
+              <option value="Email">Email</option>
+              <option value="Phone">Phone</option>
+              <option value="WhatsApp">WhatsApp</option>
+            </select>
+          </label>
+          <label>
+            Email, phone or WhatsApp number
+            <input type="text" name="contact" autocomplete="email" required>
+          </label>
+          <div class="form-row">
+            <label>
+              Check-in
+              <input type="text" name="checkin" inputmode="numeric" placeholder="YYYY-MM-DD" pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}" readonly required>
+            </label>
+            <label>
+              Check-out
+              <input type="text" name="checkout" inputmode="numeric" placeholder="YYYY-MM-DD" pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}" readonly required>
+            </label>
+          </div>
+          <div class="date-picker" hidden>
+            <div class="date-picker-note">Choose an available date.</div>
+            <div class="calendar-card">
+              <div class="calendar-toolbar">
+                <button type="button" class="calendar-prev" aria-label="Previous month">Prev</button>
+                <h3 class="calendar-month">Month</h3>
+                <button type="button" class="calendar-next" aria-label="Next month">Next</button>
+              </div>
+              <div class="calendar-weekdays" aria-hidden="true">
+                <span>Mon</span>
+                <span>Tue</span>
+                <span>Wed</span>
+                <span>Thu</span>
+                <span>Fri</span>
+                <span>Sat</span>
+                <span>Sun</span>
+              </div>
+              <div class="calendar-grid" aria-label="Availability calendar"></div>
+              <div class="calendar-legend">
+                <span><i class="available-dot"></i> Available</span>
+                <span><i class="booked-dot"></i> Booked</span>
+              </div>
+            </div>
+          </div>
+          <div class="form-row three">
+            <label>
+              Adults
+              <input type="number" name="adults" min="1" max="4" value="2" required>
+            </label>
+            <label>
+              Children
+              <input type="number" name="children" min="0" max="3" value="0" required>
+            </label>
+            <label>
+              Pets
+              <input type="number" name="pets" min="0" max="3" value="0" required>
+            </label>
+          </div>
+          <label>
+            Message
+            <textarea name="message" rows="5" placeholder="Tell us anything important about your stay."></textarea>
+          </label>
+          <button class="button primary" type="submit">Send request</button>
+          <p class="form-note" id="form-note">This sends your request directly to Medve Dome.</p>
+        </form>
+      </aside>
+    </section>
+
+    <section class="section booking-info-grid">
+      <article class="info-panel properties-panel">
+        <h2>Properties</h2>
+        <dl class="property-compact">
+          <div><dt>Accommodates:</dt><dd>4</dd></div>
+          <div><dt>Size:</dt><dd>28 sq m</dd></div>
+          <div class="property-beds"><dt>Beds:</dt><dd>1 Double(s), 1 Queen(s)</dd></div>
+        </dl>
+      </article>
+
+      <article class="info-panel more-info-panel">
+        <p class="section-kicker">More Info</p>
+        <h2>Comfort, warmth and the skyline window.</h2>
+        <p>Medve Dome is equipped with a Double Bed downstairs and one in the mezzanine, allowing you a better view of the skyline window where you can stare at the sky and watch the stars. It can be a truly memorable and romantic experience.</p>
+        <p>It has a wood stove and an en-suite bathroom with a modern Eco-toilet that uses less water. The kitchen is equipped with the amenities needed to cook. Towels, pillows, duvets, bed linens and blankets are provided for free, washed with unscented organic and chemical-free detergent. We also provide organic soap and shower gel, and extra toilet paper.</p>
+      </article>
+
+      <article class="info-panel amenities-panel">
+        <p class="section-kicker">Amenities</p>
+        <h2>Included for your stay.</h2>
+        <div class="amenity-grid">
+          <span data-amenity="shower"><i data-lucide="shower-head"></i><b>Shower</b></span><span data-amenity="kitchen"><i data-lucide="utensils"></i><b>Kitchen</b></span><span data-amenity="towels"><svg class="amenity-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 4h9a3 3 0 0 1 3 3v11H8a3 3 0 0 1-3-3V6a2 2 0 0 1 2-2Z"></path><path d="M8 18V7a3 3 0 0 1 3-3"></path><path d="M11 9h8"></path><path d="M11 13h8"></path><path d="M5 15h3"></path></svg><b>Towels</b></span><span data-amenity="fan"><i data-lucide="fan"></i><b>Fan</b></span><span data-amenity="grill"><i data-lucide="flame"></i><b>Grill</b></span><span data-amenity="fridge"><i data-lucide="refrigerator"></i><b>Fridge</b></span>
+          <span data-amenity="window"><i data-lucide="sparkles"></i><b>Skyline Window</b></span><span data-amenity="terrace"><i data-lucide="trees"></i><b>Terrace</b></span><span data-amenity="stove"><i data-lucide="flame-kindling"></i><b>Wood Stove</b></span><span data-amenity="hottub"><i data-lucide="waves"></i><b>Hot Tub</b></span><span data-amenity="sunbed"><i data-lucide="sun"></i><b>Sun Beds</b></span><span data-amenity="linen"><i data-lucide="bed-double"></i><b>Linen</b></span>
+          <span data-amenity="coffee"><i data-lucide="coffee"></i><b>Coffee</b></span><span data-amenity="cookies"><i data-lucide="cookie"></i><b>Cookies</b></span><span data-amenity="salt"><i data-lucide="circle-check"></i><b>Salt & Pepper</b></span><span data-amenity="games"><i data-lucide="dice-5"></i><b>Games</b></span><span data-amenity="slippers"><i data-lucide="footprints"></i><b>Slippers</b></span><span data-amenity="soap"><i data-lucide="leaf"></i><b>Organic Soap</b></span>
+        </div>
+      </article>
+
+      <article class="info-panel check-panel">
+        <h2>Check In and Out</h2>
+        <dl>
+          <div><dt>Check-In</dt><dd>02:00 PM</dd></div>
+          <div><dt>Check-Out</dt><dd>12:00 PM</dd></div>
+        </dl>
+      </article>
+
+      <article class="info-panel terms-panel">
+        <h2>Terms</h2>
+        <dl>
+          <div><dt>Direct request</dt><dd>We personally confirm every stay</dd></div>
+          <div><dt>Deposit</dt><dd>20% to confirm the booking</dd></div>
+        </dl>
+      </article>
+
+      <article class="info-panel important-panel">
+        <h2>Important</h2>
+        <ul>
+          <li>The hot tub is included in the price.</li>
+          <li>After completing the booking form we will get in touch with you about your reservation and send all booking details.</li>
+          <li>Your booking is final only after paying the <strong>20% deposit</strong> through Revolut, Internet Banking or Bank Transfer.</li>
+          <li>Full payment is made on the day of your check-in.</li>
+          <li>In case of cancellation, the full deposit is returnable if cancellation is made <strong>7 days</strong> before check-in.</li>
+          <li>Rescheduling is possible depending on availability, with at least <strong>5 days' notice</strong>.</li>
+          <li>Pets are welcome. Please include the number of pets in your request.</li>
+          <li><strong>Smoking:</strong> Smoking is not allowed inside the dome. It is only permitted outside/on the terrace, while respecting cleanliness and safety.</li>
+          <li><strong>Shoes inside:</strong> Outdoor shoes are not allowed inside. Please use the indoor slippers provided.</li>
+        </ul>
+      </article>
+
+    </section>
+
+    <section class="section policies" hidden>
+      <div class="section-heading">
+        <p class="section-kicker">Policies</p>
+        <h2>Reservation Policy</h2>
+      </div>
+      <div class="policy-columns">
+        <article data-policy-lang="en">
+          <p><strong>Hot Tub:</strong> The hot tub is included and may only be used according to the instructions provided. It takes time to heat, so please let us know in advance if you'd like to use it.</p>
+          <p><strong>Smoking:</strong> Smoking is not allowed inside the dome. It is only permitted outside/on the terrace, while respecting cleanliness and safety.</p>
+          <p><strong>Shoes inside:</strong> Outdoor shoes are not allowed inside. Please use the indoor slippers provided.</p>
+        </article>
+        <article data-policy-lang="ro" hidden>
+          <p><strong>Ciubăr:</strong> Ciubărul este inclus și se folosește conform instrucțiunilor. Pregătirea apei calde necesită timp, așadar vă rugăm să ne anunțați din timp.</p>
+          <p><strong>Fumatul:</strong> Fumatul este interzis în interiorul domului. Este permis doar în curtea exterioară/terasă, cu respectarea curățeniei și siguranței.</p>
+          <p><strong>Încălțăminte:</strong> Vă rugăm să nu purtați încălțăminte de exterior înăuntru. Folosiți papucii furnizați.</p>
+        </article>
+        <article data-policy-lang="hu" hidden>
+          <p><strong>Dézsafürdő:</strong> A dézsa benne van az árban. A víz felmelegítése időt vesz igénybe, ezért kérjük, előre jelezd, ha használni szeretnéd.</p>
+          <p><strong>Dohányzás:</strong> A dome belsejében tilos a dohányzás. Csak kint az udvaron vagy a teraszon megengedett, a tisztaság és biztonság betartásával.</p>
+          <p><strong>Cipő:</strong> Kérjük, ne viselj kültéri cipőt bent. Használd a biztosított papucsokat.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact-map">
+      <div class="section-heading">
+        <p class="section-kicker">Contact Us</p>
+        <h2>Find us in Vlahita, Harghita.</h2>
+      </div>
+      <iframe title="Medve Dome map" loading="lazy" src="https://www.google.com/maps?q=Medve%20Dome%20Vlahita%20Harghita%20Romania&output=embed"></iframe>
+    </section>
+  </main>
+
+  <footer id="contact" class="site-footer">
+    <div>
+      <p class="section-kicker">Contact</p>
+      <h2>Medve Dome</h2>
+      <p>Vlahita, Jud. Harghita, Romania</p>
+      <p><a href="tel:+40742919341">Tel: +40 742 919 341</a></p>
+      <p><a href="mailto:info.medvedome@gmail.com">info.medvedome@gmail.com</a></p>
+    </div>
+    <div class="footer-links">
+      <a href="https://www.facebook.com/MedveDome" target="_blank" rel="noreferrer">Facebook</a>
+      <a href="https://www.instagram.com/medve.dome/" target="_blank" rel="noreferrer">Instagram</a>
+      <a href="https://www.tiktok.com/@medve.dome?_t=ZN-8vItkNzyHeI&_r=1" target="_blank" rel="noreferrer">TikTok</a>
+      <a href="https://wa.me/40742919341" target="_blank" rel="noreferrer">WhatsApp</a>
+    </div>
+  </footer>
+
+  <a class="whatsapp-float" href="https://wa.me/40742919341" target="_blank" rel="noreferrer" aria-label="Message Medve Dome on WhatsApp">WhatsApp</a>
+
+  <div class="lightbox" aria-hidden="true">
+    <button type="button" class="lightbox-close" aria-label="Close gallery image">Close</button>
+    <img src="" alt="">
+  </div>
+
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="script.js"></script>
+</body>
+</html>
