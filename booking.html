@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Request a stay at Medve Dome and read booking details, policies, amenities and contact information.">
   <title>Book Medve Dome | Booking Request</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=20260530-2">
 </head>
 <body class="booking-page">
   <header class="site-header">
@@ -273,7 +273,7 @@
     availabilityScript.src = `availability.js?v=${Date.now()}`;
     availabilityScript.onload = () => {
       const mainScript = document.createElement("script");
-      mainScript.src = "script.js";
+      mainScript.src = "script.js?v=20260530-2";
       document.body.appendChild(mainScript);
     };
     document.body.appendChild(availabilityScript);

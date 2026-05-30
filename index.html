@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Medve Dome is a private glamping dome in Vlahita, Harghita, Romania with forest views, hot tub, terrace, fireplace, grill and cozy boutique comfort.">
   <title>Medve Dome | Luxury Glamping in Harghita</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=20260530-2">
 </head>
 <body>
   <header class="site-header">
@@ -41,7 +41,7 @@
 
   <main id="home">
     <section class="hero" aria-label="Medve Dome luxury camping">
-      <img src="images/home/Dome%20garden%20view.jpg" alt="Medve Dome glamping dome surrounded by nature">
+      <img src="images/home/Dome%20garden%20view.jpg?v=20260530-2" alt="Medve Dome glamping dome surrounded by nature">
       <div class="hero-content">
         <h1>Medve Dome</h1>
         <p><span></span>Luxury camping for slow mornings, starry nights and a warm, cozy stay close to nature.<span></span></p>
@@ -340,7 +340,7 @@
     availabilityScript.src = `availability.js?v=${Date.now()}`;
     availabilityScript.onload = () => {
       const mainScript = document.createElement("script");
-      mainScript.src = "script.js";
+      mainScript.src = "script.js?v=20260530-2";
       document.body.appendChild(mainScript);
     };
     document.body.appendChild(availabilityScript);
