@@ -1092,10 +1092,26 @@ function applyLanguage(language) {
   }
 }
 
-menuButton.addEventListener("click", () => {
+let menuPointerHandled = false;
+
+function toggleMenu() {
   const isOpen = siteNav.classList.toggle("is-open");
   menuButton.setAttribute("aria-expanded", String(isOpen));
   menuButton.setAttribute("aria-label", isOpen ? translations[currentLanguage].menuClose : translations[currentLanguage].menuOpen);
+}
+
+menuButton.addEventListener("pointerdown", (event) => {
+  event.preventDefault();
+  menuPointerHandled = true;
+  toggleMenu();
+});
+
+menuButton.addEventListener("click", () => {
+  if (menuPointerHandled) {
+    menuPointerHandled = false;
+    return;
+  }
+  toggleMenu();
 });
 
 navLinks.forEach((link) => {
