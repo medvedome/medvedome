@@ -19,17 +19,7 @@ const roomMainImage = document.querySelector(".room-main-image img");
 const roomThumbs = document.querySelectorAll(".room-thumbs button");
 const bookingRequestEndpoint = "https://formsubmit.co/ajax/info.medvedome@gmail.com";
 
-// Edit these dates when you need to mark a night as booked or unavailable.
-const bookedDates = [
-  "2026-06-07",
-  "2026-06-08",
-  "2026-06-14",
-  "2026-06-15",
-  "2026-07-19",
-  "2026-07-20",
-  "2026-08-02",
-  "2026-08-03"
-];
+const bookedDates = window.medveBookedDates || [];
 
 const guestReviews = [
   {
@@ -285,6 +275,7 @@ const translations = {
       weekdays: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
       available: "Open",
       booked: "Booked",
+      closed: "Closed",
       note: "Choose an available date.",
       monthNames: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
     },
@@ -471,6 +462,7 @@ const translations = {
       weekdays: ["Lun", "Mar", "Mie", "Joi", "Vin", "Sam", "Dum"],
       available: "Liber",
       booked: "Rezervat",
+      closed: "Inchis",
       note: "Alege o data disponibila.",
       monthNames: ["Ianuarie", "Februarie", "Martie", "Aprilie", "Mai", "Iunie", "Iulie", "August", "Septembrie", "Octombrie", "Noiembrie", "Decembrie"]
     },
@@ -657,6 +649,7 @@ const translations = {
       weekdays: ["Het", "Ked", "Sze", "Csu", "Pen", "Szo", "Vas"],
       available: "Szabad",
       booked: "Foglalt",
+      closed: "Zarva",
       note: "Valassz egy szabad datumot.",
       monthNames: ["Januar", "Februar", "Marcius", "Aprilis", "Majus", "Junius", "Julius", "Augusztus", "Szeptember", "Oktober", "November", "December"]
     },
@@ -864,6 +857,10 @@ function toDateKey(year, month, day) {
   return `${year}-${String(month + 1).padStart(2, "0")}-${String(day).padStart(2, "0")}`;
 }
 
+function isClosedMonth(month) {
+  return month === 11 || month <= 3;
+}
+
 function renderAvailabilityCalendar() {
   if (!calendarGrid || !calendarMonth) {
     return;
@@ -888,15 +885,18 @@ function renderAvailabilityCalendar() {
   for (let day = 1; day <= daysInMonth; day += 1) {
     const dateKey = toDateKey(year, month, day);
     const isBooked = bookedDates.includes(dateKey);
+    const isClosed = isClosedMonth(month);
+    const isUnavailable = isBooked || isClosed;
+    const statusLabel = isClosed ? t.closed : isBooked ? t.booked : t.available;
     const dayElement = document.createElement("button");
     dayElement.type = "button";
-    dayElement.className = `calendar-day ${isBooked ? "is-booked" : "is-available"}`;
-    dayElement.setAttribute("aria-label", `${dateKey}: ${isBooked ? t.booked : t.available}`);
+    dayElement.className = `calendar-day ${isUnavailable ? "is-booked is-closed" : "is-available"}`;
+    dayElement.setAttribute("aria-label", `${dateKey}: ${statusLabel}`);
     dayElement.dataset.date = dateKey;
-    dayElement.disabled = isBooked;
+    dayElement.disabled = isUnavailable;
     const dayOfWeek = new Date(year, month, day).getDay();
     const price = dayOfWeek === 0 || dayOfWeek === 6 ? "750 lei" : "650 lei";
-    dayElement.innerHTML = `<strong>${day}</strong><span>${isBooked ? t.booked : t.available}</span>${isBooked ? "" : `<em>${price}</em>`}`;
+    dayElement.innerHTML = `<strong>${day}</strong><span>${statusLabel}</span>${isUnavailable ? "" : `<em>${price}</em>`}`;
 
     calendarGrid.appendChild(dayElement);
   }
@@ -1176,12 +1176,36 @@ document.addEventListener("click", (event) => {
 document.querySelectorAll(".gallery-item").forEach((item) => {
   item.addEventListener("click", () => {
     const image = item.querySelector("img");
+    if (!image || !lightbox || !lightboxImage) {
+      return;
+    }
+
     lightboxImage.src = image.src;
     lightboxImage.alt = image.alt;
     lightbox.classList.add("is-open");
     lightbox.setAttribute("aria-hidden", "false");
   });
 });
+
+const galleryVideos = document.querySelectorAll(".gallery-video video");
+
+if (galleryVideos.length) {
+  if ("IntersectionObserver" in window) {
+    const videoObserver = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.play().catch(() => {});
+        } else {
+          entry.target.pause();
+        }
+      });
+    }, { threshold: 0.35 });
+
+    galleryVideos.forEach((video) => videoObserver.observe(video));
+  } else {
+    galleryVideos.forEach((video) => video.play().catch(() => {}));
+  }
+}
 
 roomThumbs.forEach((thumb) => {
   thumb.addEventListener("click", () => {
@@ -1190,8 +1214,11 @@ roomThumbs.forEach((thumb) => {
     }
 
     const image = thumb.querySelector("img");
-    roomMainImage.src = image.src.replace(/w_\d+,h_\d+/, "w_980,h_720");
+    roomMainImage.src = image.src.includes("static.wixstatic.com")
+      ? image.src.replace(/w_\d+,h_\d+/, "w_980,h_720")
+      : image.src;
     roomMainImage.alt = image.alt;
+    roomMainImage.style.objectPosition = thumb.dataset.position || "center center";
     roomThumbs.forEach((item) => item.classList.remove("is-active"));
     thumb.classList.add("is-active");
   });
