@@ -895,7 +895,7 @@ function renderAvailabilityCalendar() {
     dayElement.dataset.date = dateKey;
     dayElement.disabled = isUnavailable;
     const dayOfWeek = new Date(year, month, day).getDay();
-    const price = dayOfWeek === 0 || dayOfWeek === 6 ? "750 lei" : "650 lei";
+    const price = dayOfWeek === 5 || dayOfWeek === 6 ? "750 lei" : "650 lei";
     dayElement.innerHTML = `<strong>${day}</strong><span>${statusLabel}</span>${isUnavailable ? "" : `<em>${price}</em>`}`;
 
     calendarGrid.appendChild(dayElement);
