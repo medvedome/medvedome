@@ -269,7 +269,15 @@
   </div>
 
   <script src="https://unpkg.com/lucide@latest"></script>
-  <script src="availability.js"></script>
-  <script src="script.js"></script>
+  <script>
+    const availabilityScript = document.createElement("script");
+    availabilityScript.src = `availability.js?v=${Date.now()}`;
+    availabilityScript.onload = () => {
+      const mainScript = document.createElement("script");
+      mainScript.src = "script.js";
+      document.body.appendChild(mainScript);
+    };
+    document.body.appendChild(availabilityScript);
+  </script>
 </body>
 </html>
