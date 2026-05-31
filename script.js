@@ -26,44 +26,63 @@ const guestReviews = [
     quote: "The tent was bigger and better in real life than in the photos, Barbara warmed up the lovely tub ahead of our arrival, and the setting was stunning! It felt like a secluded piece of forest but was accessible and safe. The kitchen was compact but modern and had everything we needed, the bathroom was lovely. It has all the benefits of being in nature but with all the comforts of a boutique hotel, and the care of family ownership. There were slippers and games for the whole family. We couldn't have wished for more - except to stay longer!",
     source: "Palmer-Grey, Booking.com",
     lang: "en",
-    translations: {}
+    translations: {
+      ro: "Cortul a fost mai mare și mai frumos în realitate decât în fotografii, Barbara a încălzit ciubărul minunat înainte de sosirea noastră, iar împrejurimile au fost superbe! Părea un colț retras de pădure, dar era accesibil și sigur. Bucătăria era compactă, dar modernă și avea tot ce ne trebuia, iar baia era minunată. Are toate avantajele apropierii de natură, dar cu tot confortul unui hotel boutique și grija unei afaceri de familie. Erau papuci și jocuri pentru întreaga familie. Nu ne-am fi putut dori mai mult, decât să rămânem mai mult timp!",
+      hu: "A sátor a valóságban nagyobb és szebb volt, mint a képeken. Barbara már az érkezésünk előtt felfűtötte a kellemes dézsát, a környezet pedig lenyűgöző volt! Olyan érzés volt, mintha egy eldugott erdei zugban lennénk, mégis könnyen megközelíthető és biztonságos helyen. A konyha kicsi, de modern volt, és mindent megtaláltunk benne, amire szükségünk volt. A fürdőszoba is gyönyörű. A természet minden előnyét kínálja egy boutique hotel kényelmével és a családi vendéglátás gondoskodásával együtt. Papucsok és játékok is vártak az egész családra. Csak azt kívántuk, bárcsak tovább maradhatnánk!"
+    }
   },
   {
     quote: "Me and my family spent one night at this extraordinary accommodation. I'm using Airbnb since 5 years or more and quite often, but this experience was far the BEST I ever had. Clean, stylish, luxurious, chill. Imagine spending the evening in the hot tub surrounded by the woodlands in dark and complete silence. I loved it. Wish all the best for Barbara. Also she was the greatest host, she even provided us with a UK to EU adapter which was a surprise to me that she had one. She thinks of everything.",
     source: "Gyorgy, Airbnb",
     lang: "en",
-    translations: {}
+    translations: {
+      ro: "Eu și familia mea am petrecut o noapte la această cazare extraordinară. Folosesc Airbnb de cinci ani sau chiar mai mult și destul de des, dar această experiență a fost de departe cea mai bună pe care am avut-o vreodată. Curat, elegant, luxos și relaxant. Imaginează-ți o seară în ciubăr, înconjurat de pădure, în întuneric și liniște deplină. Mi-a plăcut enorm. Îi doresc toate cele bune Barbarei. A fost și o gazdă extraordinară: ne-a oferit chiar și un adaptor din Marea Britanie pentru prize europene, ceea ce m-a surprins. Se gândește la toate.",
+      hu: "A családommal egy éjszakát töltöttünk ezen a rendkívüli szálláshelyen. Több mint öt éve és elég gyakran használom az Airbnb-t, de messze ez volt a legjobb élményem. Tiszta, stílusos, luxus és nyugodt. Képzeld el, hogy este a dézsában ülsz, körülötted az erdő, sötétség és teljes csend. Imádtam. Minden jót kívánok Barbarának. Nagyszerű házigazda volt, még brit-európai adaptert is adott nekünk, ami meglepett. Mindenre gondol."
+    }
   },
   {
     quote: "This place is amazing! Barbara was very kindly and helpful with me and my girlfriend: I asked for a cake and other things to make the perfect birthday there and she made all perfect! The place is amazing, you also have a beautiful hot tub where you can enjoy the place. It's an experience, a beautiful experience. Thank you Barbara again!",
     source: "Deniele, Airbnb",
     lang: "en",
-    translations: {}
+    translations: {
+      ro: "Locul acesta este minunat! Barbara a fost foarte amabilă și de ajutor cu mine și prietena mea: am rugat-o să pregătească un tort și alte lucruri pentru ca aniversarea să fie perfectă, iar ea a făcut totul minunat! Locul este superb și aveți și un ciubăr frumos în care vă puteți bucura de împrejurimi. Este o experiență, o experiență frumoasă. Îți mulțumesc din nou, Barbara!",
+      hu: "Ez a hely csodálatos! Barbara nagyon kedves és segítőkész volt velem és a barátnőmmel. Tortot és néhány más dolgot kértem tőle, hogy tökéletes legyen az ottani születésnap, és mindent nagyszerűen megoldott! A hely gyönyörű, és van egy kellemes dézsa is, ahol élvezheted a környezetet. Ez egy élmény, méghozzá gyönyörű élmény. Még egyszer köszönöm, Barbara!"
+    }
   },
   {
     quote: "Intimacy, attention to details, beauty, hospitality, luxurious comfort in the middle of nature, yet with easy access, excellent communication with the host, extra benefits, ideal hiding and resting place for a weekend relaxation, the private jacuzzi in the middle of the forest offers a unique spa-like experience! Everybody should spend a night here once in a lifetime!",
     source: "Andrea, Booking.com",
     lang: "en",
-    translations: {}
+    translations: {
+      ro: "Intimitate, atenție la detalii, frumusețe, ospitalitate, confort luxos în mijlocul naturii, dar cu acces ușor, comunicare excelentă cu gazda, beneficii suplimentare, loc ideal pentru retragere și odihnă într-un weekend. Jacuzzi-ul privat din mijlocul pădurii oferă o experiență spa unică! Toată lumea ar trebui să petreacă aici o noapte măcar o dată în viață!",
+      hu: "Intimitás, figyelem a részletekre, szépség, vendégszeretet és luxuskényelem a természet közepén, mégis könnyű megközelíthetőséggel. Kiváló kommunikáció a házigazdával, extra figyelmességek, tökéletes rejtekhely és pihenőhely egy hétvégi kikapcsolódáshoz. Az erdő közepén található privát jacuzzi egyedülálló wellnessélményt kínál! Mindenkinek érdemes legalább egyszer egy éjszakát itt töltenie."
+    }
   },
   {
     quote: "Exactly like in the photos, attention to details, the owners are very friendly, quality of the materials used for the dome.",
     source: "Homsi, Booking.com",
     lang: "en",
-    translations: {}
+    translations: {
+      ro: "Exact ca în fotografii, cu atenție la detalii, proprietari foarte prietenoși și materiale de calitate folosite pentru dom.",
+      hu: "Pontosan olyan, mint a képeken: figyelem a részletekre, nagyon barátságos tulajdonosok és minőségi anyagok a dome-ban."
+    }
   },
   {
     quote: "All the details regarding accommodation are perfect, there are even slippers for inside and for the terrace. The personal is very kind and helpful.",
     source: "Gloria, Booking.com",
     lang: "en",
-    translations: {}
+    translations: {
+      ro: "Toate detaliile cazării sunt perfecte. Există chiar și papuci pentru interior și pentru terasă. Personalul este foarte amabil și de ajutor.",
+      hu: "A szállás minden részlete tökéletes. Még külön papucs is van bentre és a teraszra. A személyzet nagyon kedves és segítőkész."
+    }
   },
   {
     quote: "Totul a fost peste așteptări, gazda este foarte primitoare, domul este foarte curat, baie moderna, atmosfera de vis, soba a încălzit domul suficient sa nu fie frig, chiar daca afară erau 7 grade. O experiență unică, recomand.",
     source: "Hindrich, Booking.com",
     lang: "ro",
     translations: {
-      en: "Everything was beyond expectations, the host is very welcoming, the dome is very clean, the bathroom modern, the atmosphere dreamy, and the stove warmed the dome enough so it was not cold even though it was 7 degrees outside. A unique experience, I recommend it."
+      en: "Everything was beyond expectations, the host is very welcoming, the dome is very clean, the bathroom modern, the atmosphere dreamy, and the stove warmed the dome enough so it was not cold even though it was 7 degrees outside. A unique experience, I recommend it.",
+      hu: "Minden felülmúlta a várakozásainkat. A házigazda nagyon barátságos, a dome nagyon tiszta, a fürdőszoba modern, a hangulat álomszerű. A kályha annyira jól befűtötte a dome-ot, hogy nem fáztunk, pedig kint 7 fok volt. Egyedülálló élmény, ajánlom."
     }
   },
   {
@@ -71,7 +90,8 @@ const guestReviews = [
     source: "Bogdan, Booking.com",
     lang: "ro",
     translations: {
-      en: "The staff was very kind and the location is outstanding. It is a dream place, an oasis of peace in the middle of nature."
+      en: "The staff was very kind and the location is outstanding. It is a dream place, an oasis of peace in the middle of nature.",
+      hu: "A személyzet nagyon kedves, a helyszín pedig kivételes. Álomszerű hely, a nyugalom oázisa a természet közepén."
     }
   },
   {
@@ -79,7 +99,8 @@ const guestReviews = [
     source: "Razvimao, Booking.com",
     lang: "ro",
     translations: {
-      en: "One of the most beautiful locations in Romania."
+      en: "One of the most beautiful locations in Romania.",
+      hu: "Románia egyik legszebb helyszíne."
     }
   },
   {
@@ -87,7 +108,8 @@ const guestReviews = [
     source: "Aura, Booking.com",
     lang: "ro",
     translations: {
-      en: "What I liked most was the position of the tent, alone in nature, where you could not be disturbed by other people, which let you enjoy everything around you."
+      en: "What I liked most was the position of the tent, alone in nature, where you could not be disturbed by other people, which let you enjoy everything around you.",
+      hu: "Leginkább az tetszett, hogy a sátor egyedül áll a természetben. Mások nem zavarhatnak meg, így igazán élvezheted mindazt, ami körülvesz."
     }
   },
   {
@@ -95,7 +117,8 @@ const guestReviews = [
     source: "Marius, Booking.com",
     lang: "ro",
     translations: {
-      en: "We had an extraordinary stay and I cannot recommend this place enough. The host was incredibly welcoming and attentive, making sure we felt at home. The hot tub was the highlight of the stay, giving us perfect relaxation under the open sky. The overall atmosphere was wonderful, with a dream landscape and perfect quiet for disconnecting from daily noise. An unforgettable experience I cannot wait to repeat."
+      en: "We had an extraordinary stay and I cannot recommend this place enough. The host was incredibly welcoming and attentive, making sure we felt at home. The hot tub was the highlight of the stay, giving us perfect relaxation under the open sky. The overall atmosphere was wonderful, with a dream landscape and perfect quiet for disconnecting from daily noise. An unforgettable experience I cannot wait to repeat.",
+      hu: "Rendkívüli élményünk volt, és nem tudom eléggé ajánlani ezt a helyet! A házigazda hihetetlenül barátságos és figyelmes volt, gondoskodott róla, hogy otthon érezzük magunkat. A tartózkodás fénypontja a dézsa volt, amely tökéletes kikapcsolódást nyújtott a szabad ég alatt. A hangulat csodálatos, a táj álomszerű, a csend pedig tökéletes ahhoz, hogy kiszakadjunk a mindennapi nyüzsgésből. Felejthetetlen élmény, alig várom, hogy megismételjük!"
     }
   },
   {
@@ -103,7 +126,8 @@ const guestReviews = [
     source: "Dana, Booking.com",
     lang: "ro",
     translations: {
-      en: "A special location in the quiet of nature. Barbara is wonderful. I recommend relaxing in the hot tub at night. I have never seen so many stars so clearly. And the sleep afterwards, with the fire lit in the stove, is exceptional."
+      en: "A special location in the quiet of nature. Barbara is wonderful. I recommend relaxing in the hot tub at night. I have never seen so many stars so clearly. And the sleep afterwards, with the fire lit in the stove, is exceptional.",
+      hu: "Különleges hely a természet csendjében. Barbara csodálatos! Ajánlom az éjszakai pihenést a dézsában. Soha nem láttam még ennyi csillagot ilyen tisztán. Az utána következő alvás pedig, a kályhában égő tűz mellett, kivételes."
     }
   },
   {
@@ -111,7 +135,8 @@ const guestReviews = [
     source: "Hunor, Booking.com",
     lang: "hu",
     translations: {
-      en: "Clean, well-kept and quiet surroundings, perfect for resting."
+      en: "Clean, well-kept and quiet surroundings, perfect for resting.",
+      ro: "Împrejurimi curate, îngrijite și liniștite, perfecte pentru odihnă."
     }
   },
   {
@@ -119,7 +144,8 @@ const guestReviews = [
     source: "Erika, Booking.com",
     lang: "hu",
     translations: {
-      en: "Medve Dome is located in a clearing surrounded by pine trees. The dome itself is a small jewel, equipped with everything a family may need. The bedroom with the huge panoramic window is a real experience. The kitchen equipment is exceptional and the bathroom is first class. The outdoor hot tub, with the tall pine tree above it, is true luxury. The hosts were very kind and helpful."
+      en: "Medve Dome is located in a clearing surrounded by pine trees. The dome itself is a small jewel, equipped with everything a family may need. The bedroom with the huge panoramic window is a real experience. The kitchen equipment is exceptional and the bathroom is first class. The outdoor hot tub, with the tall pine tree above it, is true luxury. The hosts were very kind and helpful.",
+      ro: "Medve Dome se află într-o poiană înconjurată de brazi. Domul este o mică bijuterie, dotată cu tot ce ar putea avea nevoie o familie. Dormitorul cu fereastra panoramică uriașă este o adevărată experiență. Bucătăria este excepțional de bine echipată, iar baia este de primă clasă. Ciubărul exterior, cu bradul înalt deasupra sa, este un adevărat lux. Gazdele au fost foarte amabile și de ajutor."
     }
   },
   {
@@ -127,7 +153,8 @@ const guestReviews = [
     source: "Örs, Booking.com",
     lang: "hu",
     translations: {
-      en: "The atmosphere of the accommodation surrounded by trees, with a small clearing, was fantastic, not to mention the comfort. It was clean, comfortable and equipped. The hot tub, which we used in the evening, was a special experience for us. The hosts were friendly and kind."
+      en: "The atmosphere of the accommodation surrounded by trees, with a small clearing, was fantastic, not to mention the comfort. It was clean, comfortable and equipped. The hot tub, which we used in the evening, was a special experience for us. The hosts were friendly and kind.",
+      ro: "Atmosfera cazării înconjurate de copaci, cu o mică poiană, a fost fantastică, ca să nu mai vorbim despre confort. A fost curat, comod și bine echipat. Ciubărul, pe care l-am folosit seara, a fost o experiență aparte pentru noi. Gazdele au fost prietenoase și amabile."
     }
   },
   {
@@ -135,7 +162,8 @@ const guestReviews = [
     source: "Catalina, Booking.com",
     lang: "ro",
     translations: {
-      en: "The tent is wonderful, in the middle of nature, with forest and birdsong. The hot tub was ready, the linens and towels impeccable, fresh flowers on the table. The small kitchen is sufficiently equipped and everything went well. The welcoming host helped us with everything that can be visited in the area."
+      en: "The tent is wonderful, in the middle of nature, with forest and birdsong. The hot tub was ready, the linens and towels impeccable, fresh flowers on the table. The small kitchen is sufficiently equipped and everything went well. The welcoming host helped us with everything that can be visited in the area.",
+      hu: "A sátor csodálatos! A természet közepén, erdővel és madárcsicsergéssel körülvéve. A dézsa elő volt készítve, az ágyneműk és törölközők kifogástalanok voltak, az asztalon friss virágok vártak. A kis konyha megfelelően felszerelt, minden rendben ment. A barátságos házigazda segített abban is, hogy mit érdemes megnézni a környéken."
     }
   },
   {
@@ -143,7 +171,8 @@ const guestReviews = [
     source: "Lia, Booking.com",
     lang: "ro",
     translations: {
-      en: "We liked everything, it was perfect: the hot tub, the very kind hosts, the comfort, the aesthetics and small details, respect for the environment, the cats the children played with, even the deer seemed programmed to say good morning during breakfast on the terrace."
+      en: "We liked everything, it was perfect: the hot tub, the very kind hosts, the comfort, the aesthetics and small details, respect for the environment, the cats the children played with, even the deer seemed programmed to say good morning during breakfast on the terrace.",
+      hu: "Minden tetszett, tökéletes volt: a dézsa, a nagyon kedves házigazdák, a kényelem, az esztétika és az apró részletek, a környezet tisztelete, a macskák, amelyekkel a gyerekek játszottak. Még az őzek is mintha arra lettek volna beprogramozva, hogy jó reggelt kívánjanak a teraszon elfogyasztott reggelinél."
     }
   },
   {
@@ -151,14 +180,18 @@ const guestReviews = [
     source: "Guest review, Booking.com",
     lang: "hu",
     translations: {
-      en: "The owners were very kind. A wonderful forest setting, and an extraordinary experience to see the deer while having morning coffee."
+      en: "The owners were very kind. A wonderful forest setting, and an extraordinary experience to see the deer while having morning coffee.",
+      ro: "Proprietarii au fost foarte amabili. Un cadru minunat în pădure și o experiență extraordinară să vezi căprioarele în timp ce îți bei cafeaua de dimineață."
     }
   },
   {
     quote: "We fell in love with this place, enjoyed the big comfort through the whirlpool and liked that feeling to be out in the woods. The communication with Barbara was easy and she is a very friendly woman.",
     source: "Anna, Airbnb",
     lang: "en",
-    translations: {}
+    translations: {
+      ro: "Ne-am îndrăgostit de acest loc, ne-am bucurat de confortul oferit de jacuzzi și ne-a plăcut senzația de a fi în mijlocul pădurii. Comunicarea cu Barbara a fost ușoară și este o femeie foarte prietenoasă.",
+      hu: "Beleszerettünk ebbe a helybe. Élveztük a pezsgőfürdő kényelmét és azt az érzést, hogy az erdőben vagyunk. Barbarával könnyű volt kommunikálni, és nagyon barátságos."
+    }
   }
 ];
 let calendarDate = new Date();
@@ -354,378 +387,378 @@ const translations = {
     close: "Close"
   },
   ro: {
-    langName: "Romana",
-    title: "Medve Dome | Glamping de lux in Harghita",
-    description: "Medve Dome este un dom privat de glamping in Vlahita, Harghita, cu vedere spre natura, ciubar, terasa, semineu, gratar si confort boutique.",
+    langName: "Română",
+    title: "Medve Dome | Glamping de lux în Harghita",
+    description: "Medve Dome este un dom privat de glamping în Vlăhița, Harghita, cu vedere spre natură, ciubăr, terasă, șemineu, grătar și confort boutique.",
     menuOpen: "Deschide meniul",
-    menuClose: "Inchide meniul",
-    nav: ["Despre", "Domul", "Servicii", "Galerie", "De vazut", "FAQ", "Rezerva"],
+    menuClose: "Închide meniul",
+    nav: ["Despre", "Domul", "Servicii", "Galerie", "De văzut", "Întrebări frecvente", "Rezervă"],
     hero: {
-      eyebrow: "Glamping privat in padure, in Harghita",
-      text: "Camping de lux pentru dimineti linistite, nopti cu stele si o sedere calda, aproape de natura.",
+      eyebrow: "Glamping privat în pădure, în Harghita",
+      text: "Camping de lux pentru dimineți liniștite, nopți cu stele și o ședere caldă, aproape de natură.",
       primary: "Cere o rezervare",
       secondary: "Vezi galeria"
     },
     about: {
       kicker: "Despre",
-      title: "Un dom linistit, cu tot confortul care face natura usor de trait.",
-      text: "Asezat in inima naturii, Medve Dome ofera o experienta de glamping luxoasa si aparte. Domul nostru geodezic imbina confortul modern cu frumusetea autentica a naturii, creand un refugiu in care te poti desprinde de cotidian si reconecta cu ceea ce conteaza cu adevarat.\n\nFiecare detaliu a fost gandit pentru a-ti oferi o experienta autentica in aer liber, fara sa renunti la confort. Din momentul in care ajungi, esti inconjurat de liniste, copaci si sunetele blande ale naturii.\n\nFie ca iti doresti o escapada romantica, o retragere linistita sau o aventura in natura alaturi de familie, Medve Dome este locul potrivit pentru amintiri de neuitat."
+      title: "Un dom liniștit, cu tot confortul care face natura ușor de trăit.",
+      text: "Așezat în inima naturii, Medve Dome oferă o experiență de glamping luxoasă și aparte. Domul nostru geodezic îmbină confortul modern cu frumusețea autentică a naturii, creând un refugiu în care te poți desprinde de cotidian și reconecta cu ceea ce contează cu adevărat.\n\nFiecare detaliu a fost gândit pentru a-ți oferi o experiență autentică în aer liber, fără să renunți la confort. Din momentul în care ajungi, ești înconjurat de liniște, copaci și sunetele blânde ale naturii.\n\nFie că îți dorești o escapadă romantică, o retragere liniștită sau o aventură în natură alături de familie, Medve Dome este locul potrivit pentru amintiri de neuitat."
     },
     dome: {
       kicker: "Domul",
-      title: "Un singur dom privat, gandit pentru sederi memorabile.",
-      text: "Domul are un pat dublu la parter si inca unul in mezanin, de unde oaspetii au o priveliste mai buna spre fereastra din tavan. Intinde-te, priveste stelele si bucura-te de o experienta romantica, retrasa.",
+      title: "Un singur dom privat, gândit pentru șederi memorabile.",
+      text: "Domul are un pat dublu la parter și încă unul în mezanin, de unde oaspeții au o priveliște mai bună spre fereastra din tavan. Întinde-te, privește stelele și bucură-te de o experiență romantică, retrasă.",
       features: [
-        "Pat dublu si zona de dormit in mezanin",
-        "Baie privata cu dus cald",
-        "Bucatarie complet utilata si gratar exterior",
+        "Pat dublu și zona de dormit în mezanin",
+        "Baie privată cu duș cald",
+        "Bucătărie complet utilată și grătar exterior",
         "Vederi panoramice",
-        "Terasa, gradina, hamac si sezlonguri",
-        "Ciubar privat",
+        "Terasă, grădină, hamac și șezlonguri",
+        "Ciubăr privat",
         "Control al temperaturii pentru confort",
-        "Lumini ambientale si prize"
+        "Lumini ambientale și prize"
       ],
       capacityTitle: "Capacitate",
-      capacityText: "Perfect pentru cupluri sau familii mici, domul nostru gazduieste confortabil pana la 4 oaspeti, pastrand o experienta intima si exclusiva.",
-      link: "Verifica disponibilitatea"
+      capacityText: "Perfect pentru cupluri sau familii mici, domul nostru găzduiește confortabil până la 4 oaspeți, păstrând o experiență intimă și exclusivă.",
+      link: "Verifică disponibilitatea"
     },
     services: {
       kicker: "Servicii",
-      title: "Tot ce ai nevoie pentru o escapada usoara in padure.",
+      title: "Tot ce ai nevoie pentru o escapadă ușoară în pădure.",
       items: [
-        ["Terasa cu sezlonguri", "Relaxeaza-te la soare, dormiteaza la umbra copacilor in hamac sau citeste o carte in scaunul suspendat."],
-        ["Semineu", "Petrece seara in liniste, inconjurat de padure, simtind caldura focului si ascultand trosnetul lemnelor."],
-        ["Gratar in aer liber", "Pregateste mancarea preferata la gratar si bucura-te de o seara calda sub cerul liber."],
-        ["Gradina si vedere spre cer", "Dormi sub cer si priveste stelele din confortul propriului pat."],
-        ["Ciubar", "Relaxeaza-te in ciubar, cu copacii in jur si stelele deasupra."],
-        ["Gradina", "Plimba-te pe proprietate, admira natura, asculta pasarile sau stai pe banca privind iazul."]
+        ["Terasă cu șezlonguri", "Relaxează-te la soare, dormitează la umbra copacilor în hamac sau citește o carte în scaunul suspendat."],
+        ["Șemineu", "Petrece seara în liniște, înconjurat de pădure, simțind căldura focului și ascultând trosnetul lemnelor."],
+        ["Grătar în aer liber", "Pregătește mâncarea preferată la grătar și bucură-te de o seară caldă sub cerul liber."],
+        ["Grădină și vedere spre cer", "Dormi sub cer și privește stelele din confortul propriului pat."],
+        ["Ciubăr", "Relaxează-te în ciubăr, cu copacii în jur și stelele deasupra."],
+        ["Grădină", "Plimbă-te pe proprietate, admiră natura, ascultă păsările sau stai pe bancă privind iazul."]
       ]
     },
     gallery: {
       kicker: "Galerie",
-      title: "O privire spre dom, gradina si momentele linistite de afara."
+      title: "O privire spre dom, grădină și momentele liniștite de afară."
     },
     activities: {
-      kicker: "De vazut",
-      title: "Activitati optionale in zona.",
+      kicker: "De văzut",
+      title: "Activități opționale în zonă.",
       items: [
-        ["Drumetii si plimbari", "Exploreaza Harghita Madaras, Harghita Bai, Cheile Varghisului, Lacul Zetea si trasee prin padure cu privelisti frumoase, cascade, pesteri si podete."],
-        ["Centre de agrement si bai termale", "Vlahita si Homorod ofera centre de agrement, piscine, sauna, bazine cu apa sarata si bai termale cu apa naturala calda."],
-        ["Pentru copii", "Copiii se pot bucura de gradina, jocuri si trambulina. In apropiere sunt pista de bob din Homorod Bai, Balu Park si Mini Transylvania Park."],
-        ["Relaxare", "Ia o pauza adevarata: o plimbare prin padure, o carte buna, meditatie sau o dupa-amiaza linistita in gradina."],
-        ["Calarie", "In zona exista optiuni de calarie si ture ghidate pentru copii si adulti."],
-        ["Activitati de iarna", "Harghita Bai si Harghita Madaras sunt statiuni de schi foarte bune din Transilvania, cu partii, plimbari cu sania, ture cu snowmobilul si patinoare."]
+        ["Drumeții și plimbări", "Explorează Harghita Madaras, Harghita Băi, Cheile Varghisului, Lacul Zetea și trasee prin pădure cu priveliști frumoase, cascade, peșteri și podețe."],
+        ["Centre de agrement și băi termale", "Vlăhița și Homorod oferă centre de agrement, piscine, saună, bazine cu apă sărată și băi termale cu apă naturală caldă."],
+        ["Pentru copii", "Copiii se pot bucura de grădină, jocuri și trambulină. În apropiere sunt pista de bob din Homorod Băi, Balu Park și Mini Transylvania Park."],
+        ["Relaxare", "Ia o pauză adevărată: o plimbare prin pădure, o carte bună, meditație sau o după-amiază liniștită în grădină."],
+        ["Călărie", "În zonă există opțiuni de călărie și ture ghidate pentru copii și adulți."],
+        ["Activități de iarnă", "Harghita Băi și Harghita Madaras sunt stațiuni de schi foarte bune din Transilvania, cu pârtii, plimbări cu sania, ture cu snowmobilul și patinoare."]
       ]
     },
     review: {
-      text: "\"Are toate avantajele naturii, dar cu tot confortul unui hotel boutique si grija unei afaceri de familie.\"",
+      text: "\"Are toate avantajele naturii, dar cu tot confortul unui hotel boutique și grija unei afaceri de familie.\"",
       source: "Palmer-Grey, Booking.com",
       sectionKicker: "Recenzii",
-      sectionTitle: "Oaspetii apreciaza linistea, confortul si grija familiei.",
+      sectionTitle: "Oaspeții apreciază liniștea, confortul și grija familiei.",
       showTranslation: "Vezi traducerea",
       hideTranslation: "Ascunde traducerea",
       translationLabel: "Traducere",
       cards: [
         ["\"Are toate avantajele naturii, dar cu tot confortul unui hotel boutique.\"", "Palmer-Grey, Booking.com"],
-        ["\"Linistea, intimitatea, atentia la detalii din partea gazdelor.\"", "Cezarina, Booking.com"],
-        ["\"Mediu curat, ingrijit si linistit, perfect pentru odihna.\"", "Hunor, Booking.com"],
-        ["\"Intimitate, atentie la detalii, frumusete, ospitalitate si confort luxos in mijlocul naturii.\"", "Andrea, Booking.com"],
-        ["\"Scor exceptional: 9.8 pe Booking.com si 5.0 pe Airbnb.\"", "Scoruri publice"],
-        ["\"Confort ca la camping, cu tot ce este necesar, intr-o poiana linistita inconjurata de copaci.\"", "Ioandecean, Booking.com"],
-        ["\"Curat, confortabil, peisaj frumos si o gazda foarte amabila.\"", "Bianca.z, Booking.com"],
-        ["\"Exact ca in fotografii, cu proprietari prietenosi si atentie la detalii.\"", "Homsi, Booking.com"],
-        ["\"Un mod diferit de a fi in inima naturii.\"", "Gloria, Booking.com"],
-        ["\"Exista toate conditiile pentru a petrece un sejur reusit.\"", "Florentina, Booking.com"]
+        ["\"Liniștea, intimitatea, atenția la detalii din partea gazdelor.\"", "Cezarina, Booking.com"],
+        ["\"Mediu curat, îngrijit și liniștit, perfect pentru odihnă.\"", "Hunor, Booking.com"],
+        ["\"Intimitate, atenție la detalii, frumusețe, ospitalitate și confort luxos în mijlocul naturii.\"", "Andrea, Booking.com"],
+        ["\"Scor excepțional: 9.8 pe Booking.com și 5.0 pe Airbnb.\"", "Scoruri publice"],
+        ["\"Confort ca la camping, cu tot ce este necesar, într-o poiană liniștită înconjurată de copaci.\"", "Ioandecean, Booking.com"],
+        ["\"Curat, confortabil, peisaj frumos și o gazdă foarte amabilă.\"", "Bianca.z, Booking.com"],
+        ["\"Exact ca în fotografii, cu proprietari prietenoși și atenție la detalii.\"", "Homsi, Booking.com"],
+        ["\"Un mod diferit de a fi în inima naturii.\"", "Gloria, Booking.com"],
+        ["\"Există toate condițiile pentru a petrece un sejur reușit.\"", "Florentina, Booking.com"]
       ],
-      links: ["Recenzii Booking.com", "Anunt Airbnb", "Google Maps"]
+      links: ["Recenzii Booking.com", "Anunț Airbnb", "Google Maps"]
     },
     faq: {
-      kicker: "Intrebari",
-      title: "Intrebari frecvente.",
+      kicker: "Întrebări",
+      title: "Întrebări frecvente.",
       items: [
-        ["Exista parcare?", "Da, parcarea gratuita este disponibila la proprietate."],
-        ["Se poate ajunge cu o masina joasa?", "Da, drumul de pe strada este in stare foarte buna si poate fi accesat cu orice masina."],
-        ["Exista restaurant?", "Cele mai apropiate restaurante sunt la aproximativ 5 km. Unele livreaza si la Dome."],
-        ["Exista mancare la proprietate?", "Nu oferim mancare la Dome. Exista o bucatarie in interior si un gratar afara. Restaurantele si supermarketurile cele mai apropiate sunt la aproximativ 5 km."],
-        ["Se poate face gratar?", "Da, iar carbunele este inclus."],
-        ["Exista aer conditionat in dom?", "Nu exista aer conditionat, dar exista un ventilator pentru zilele calduroase. Afara sunt multe locuri umbrite pentru relaxare."],
-        ["Exista semnal? WiFi?", "Da, exista semnal foarte bun. Orange si Vodafone au cel mai bun semnal. Nu exista WiFi."],
-        ["Exista gard in jurul proprietatii? Sunt ursi?", "Nu exista gard in jurul proprietatii, dar zona este sigura. In principal caprioare si vulpi mai vin in vizita."]
+        ["Există parcare?", "Da, parcarea gratuită este disponibilă la proprietate."],
+        ["Se poate ajunge cu o mașină joasă?", "Da, drumul de pe stradă este în stare foarte bună și poate fi accesat cu orice mașină."],
+        ["Există restaurant?", "Cele mai apropiate restaurante sunt la aproximativ 5 km. Unele livrează și la Dome."],
+        ["Există mâncare la proprietate?", "Nu oferim mâncare la Dome. Există o bucătărie în interior și un grătar afară. Restaurantele și supermarketurile cele mai apropiate sunt la aproximativ 5 km."],
+        ["Se poate face grătar?", "Da, iar cărbunele este inclus."],
+        ["Există aer condiționat în dom?", "Nu există aer condiționat, dar există un ventilator pentru zilele călduroase. Afară sunt multe locuri umbrite pentru relaxare."],
+        ["Există semnal? WiFi?", "Da, există semnal foarte bun. Orange și Vodafone au cel mai bun semnal. Nu există WiFi."],
+        ["Există gard în jurul proprietății? Sunt urși?", "Nu există gard în jurul proprietății, dar zona este sigură. În principal căprioare și vulpi mai vin în vizită."]
       ]
     },
     availability: {
       kicker: "Disponibilitate",
-      title: "Vezi datele libere inainte sa trimiti cererea.",
-      text: "Zilele verzi sunt disponibile. Zilele marcate cald sunt deja rezervate sau indisponibile. Trimite o cerere si iti vom confirma personal datele.",
-      prev: "Inapoi",
-      next: "Inainte",
+      title: "Vezi datele libere înainte să trimiți cererea.",
+      text: "Zilele verzi sunt disponibile. Zilele marcate cu o culoare caldă sunt deja rezervate sau indisponibile. Trimite o cerere și îți vom confirma personal datele.",
+      prev: "Înapoi",
+      next: "Înainte",
       weekdays: ["Lun", "Mar", "Mie", "Joi", "Vin", "Sam", "Dum"],
       available: "Liber",
       booked: "Rezervat",
-      closed: "Inchis",
-      note: "Alege o data disponibila.",
+      closed: "Închis",
+      note: "Alege o dată disponibilă.",
       monthNames: ["Ianuarie", "Februarie", "Martie", "Aprilie", "Mai", "Iunie", "Iulie", "August", "Septembrie", "Octombrie", "Noiembrie", "Decembrie"]
     },
     booking: {
       kicker: "Cerere de rezervare",
-      title: "Spune-ne cand ai vrea sa vii.",
-      text: "Trimite o cerere simpla si iti vom raspunde cu disponibilitatea, pretul si pasii urmatori. Pentru cel mai rapid raspuns, ne poti scrie si pe WhatsApp.",
-      labels: ["Nume complet", "Metoda preferata de contact", "Email, telefon sau numar WhatsApp", "Check-in", "Check-out", "Adulti", "Copii", "Animale de companie", "Mesaj"],
+      title: "Spune-ne când ai vrea să vii.",
+      text: "Trimite o cerere simplă și îți vom răspunde cu disponibilitatea, prețul și pașii următori. Pentru cel mai rapid răspuns, ne poți scrie și pe WhatsApp.",
+      labels: ["Nume complet", "Metoda preferată de contact", "Email, telefon sau număr WhatsApp", "Check-in", "Check-out", "Adulți", "Copii", "Animale de companie", "Mesaj"],
       preferred: ["Email", "Telefon", "WhatsApp"],
       datePlaceholder: "AAAA-LL-ZZ",
-      placeholder: "Scrie-ne orice detaliu important despre sederea ta.",
+      placeholder: "Scrie-ne orice detaliu important despre șederea ta.",
       button: "Trimite cererea",
-      note: "Cererea ta se trimite direct catre Medve Dome.",
-      sent: "Multumim. Cererea ta a fost trimisa si te vom contacta in curand.",
+      note: "Cererea ta se trimite direct către Medve Dome.",
+      sent: "Mulțumim. Cererea ta a fost trimisă și te vom contacta în curând.",
       sending: "Se trimite cererea...",
-      sendError: "Ceva nu a functionat. Te rugam sa ne scrii pe WhatsApp sau la info.medvedome@gmail.com.",
+      sendError: "Ceva nu a funcționat. Te rugăm să ne scrii pe WhatsApp sau la info.medvedome@gmail.com.",
       subject: "Cerere de rezervare pentru Medve Dome",
-      emailIntro: "Buna, Medve Dome,\n\nAs dori sa trimit o cerere de rezervare.",
-      emailFields: ["Nume", "Email sau telefon", "Check-in", "Check-out", "Adulti", "Copii", "Animale de companie", "Metoda preferata de contact", "Mesaj"]
+      emailIntro: "Bună, Medve Dome,\n\nAș dori să trimit o cerere de rezervare.",
+      emailFields: ["Nume", "Email sau telefon", "Check-in", "Check-out", "Adulți", "Copii", "Animale de companie", "Metoda preferată de contact", "Mesaj"]
     },
     bookingPage: {
       heroKicker: "Cerere de rezervare",
-      heroTitle: "Rezerva Medve Dome",
-      heroText: "Verifica detaliile importante, alege datele preferate si trimite-ne o cerere. Te vom contacta cu pasii urmatori.",
-      contact: "Vlahita, Harghita, Romania",
+      heroTitle: "Rezervă Medve Dome",
+      heroText: "Verifică detaliile importante, alege datele preferate și trimite-ne o cerere. Te vom contacta cu pașii următori.",
+      contact: "Vlăhița, Harghita, România",
       priceFrom: "De la",
       priceValue: "650 LEI",
       priceNight: "Pe noapte",
-      propertiesTitle: "Proprietati",
+      propertiesTitle: "Proprietăți",
       propertyLabels: ["Capacitate:", "Dimensiune:", "Paturi:"],
       propertyValues: ["4", "28 mp", "1 pat dublu, 1 pat queen"],
-      checkTitle: "Check In si Out",
+      checkTitle: "Check-in și check-out",
       checkLabels: ["Check-in", "Check-out"],
       checkValues: ["14:00", "12:00"],
       termsTitle: "Termeni",
-      termsLabels: ["Cerere directa", "Avans"],
-      termsValues: ["Confirmam personal fiecare sedere", "20% pentru confirmarea rezervarii"],
+      termsLabels: ["Cerere directă", "Avans"],
+      termsValues: ["Confirmăm personal fiecare ședere", "20% pentru confirmarea rezervării"],
       importantTitle: "Important",
       importantItems: [
-        "Ciubarul este inclus in pret.",
-        "Dupa completarea formularului de rezervare, te vom contacta cu toate detaliile rezervarii.",
-        "Rezervarea devine finala doar dupa plata unui <strong>avans de 20%</strong> prin Revolut, Internet Banking sau Transfer Bancar.",
-        "Plata integrala se face in ziua check-in-ului.",
-        "In caz de anulare, avansul se returneaza integral daca anularea se face cu <strong>7 zile</strong> inainte de check-in.",
-        "Reprogramarea este posibila in functie de disponibilitate, cu cel putin <strong>5 zile</strong> inainte.",
-        "Animalele de companie sunt binevenite. Te rugam sa incluzi numarul lor in cerere.",
-        "<strong>Fumatul:</strong> Fumatul este interzis in interiorul domului. Este permis doar afara/pe terasa, cu respectarea curateniei si sigurantei.",
-        "<strong>Incaltaminte:</strong> Nu este permis sa purtati incaltaminte de exterior in interior. Va rugam sa folositi papucii furnizati."
+        "Ciubărul este inclus în preț.",
+        "După completarea formularului de rezervare, te vom contacta cu toate detaliile rezervării.",
+        "Rezervarea devine finală doar după plata unui <strong>avans de 20%</strong> prin Revolut, Internet Banking sau Transfer Bancar.",
+        "Plata integrală se face în ziua check-in-ului.",
+        "În caz de anulare, avansul se returnează integral dacă anularea se face cu <strong>7 zile</strong> înainte de check-in.",
+        "Reprogramarea este posibilă în funcție de disponibilitate, cu cel puțin <strong>5 zile</strong> înainte.",
+        "Animalele de companie sunt binevenite. Te rugăm să incluzi numărul lor în cerere.",
+        "<strong>Fumatul:</strong> Fumatul este interzis în interiorul domului. Este permis doar afară/pe terasă, cu respectarea curățeniei și siguranței.",
+        "<strong>Încălțăminte:</strong> Nu este permis să purtați încălțăminte de exterior în interior. Vă rugăm să folosiți papucii furnizați."
       ],
-      moreKicker: "Mai multe informatii",
-      moreTitle: "Confort, caldura si fereastra spre cer.",
+      moreKicker: "Mai multe informații",
+      moreTitle: "Confort, căldură și fereastra spre cer.",
       moreText: [
-        "Medve Dome este echipat cu un pat dublu la parter si inca un pat in mezanin, de unde poti vedea mai bine fereastra din tavan, sa privesti cerul si stelele. Poate fi o experienta cu adevarat memorabila si romantica.",
-        "Domul are soba pe lemne si baie proprie cu o toaleta Eco moderna, care foloseste mai putina apa. Bucataria este utilata pentru gatit. Prosoapele, pernele, pilote, lenjeria si paturile sunt incluse si spalate cu detergent organic, fara parfum si fara chimicale. Oferim si sapun organic, gel de dus si hartie igienica extra."
+        "Medve Dome este echipat cu un pat dublu la parter și încă un pat în mezanin, de unde poți vedea mai bine fereastra din tavan, să privești cerul și stelele. Poate fi o experiență cu adevărat memorabilă și romantică.",
+        "Domul are sobă pe lemne și baie proprie cu o toaletă Eco modernă, care folosește mai puțină apă. Bucătăria este utilată pentru gătit. Prosoapele, pernele, pilotele, lenjeria și păturile sunt incluse și spălate cu detergent organic, fără parfum și fără chimicale. Oferim și săpun organic, gel de duș și hârtie igienică extra."
       ],
-      amenitiesKicker: "Dotari",
-      amenitiesTitle: "Incluse in sederea ta.",
-      amenities: ["Dus", "Bucatarie", "Prosoape", "Ventilator", "Gratar", "Frigider", "Fereastra spre cer", "Terasa", "Soba pe lemne", "Ciubar", "Sezlonguri", "Lenjerie", "Cafea", "Prajiturele", "Sare si piper", "Jocuri", "Papuci", "Sapun organic"],
+      amenitiesKicker: "Dotări",
+      amenitiesTitle: "Incluse în șederea ta.",
+      amenities: ["Duș", "Bucătărie", "Prosoape", "Ventilator", "Grătar", "Frigider", "Fereastra spre cer", "Terasă", "Sobă pe lemne", "Ciubăr", "Șezlonguri", "Lenjerie", "Cafea", "Prăjiturele", "Sare și piper", "Jocuri", "Papuci", "Săpun organic"],
       policiesKicker: "Reguli",
       policiesTitle: "Politica de rezervare",
       policyItems: [
-        ["Ciubar:", "Ciubarul este inclus si se foloseste doar conform instructiunilor primite. Pregatirea apei calde necesita timp, asadar va rugam sa ne anuntati din timp daca doriti sa il folositi."],
-        ["Fumatul:", "Fumatul este interzis in interiorul domului. Este permis doar afara/pe terasa, cu respectarea curateniei si sigurantei."],
-        ["Incaltaminte:", "Nu este permis sa purtati incaltaminte de exterior in interior. Va rugam sa folositi papucii furnizati."]
+        ["Ciubăr:", "Ciubărul este inclus și se folosește doar conform instrucțiunilor primite. Pregătirea apei calde necesită timp, așadar vă rugăm să ne anunțați din timp dacă doriți să îl folosiți."],
+        ["Fumatul:", "Fumatul este interzis în interiorul domului. Este permis doar afară/pe terasă, cu respectarea curățeniei și siguranței."],
+        ["Încălțăminte:", "Nu este permis să purtați încălțăminte de exterior în interior. Vă rugăm să folosiți papucii furnizați."]
       ],
       contactKicker: "Contact",
-      contactTitle: "Ne gasesti in Vlahita, Harghita."
+      contactTitle: "Ne găsești în Vlăhița, Harghita."
     },
     footer: {
       kicker: "Contact",
-      location: "Vlahita, jud. Harghita, Romania",
+      location: "Vlăhița, jud. Harghita, România",
       phone: "Tel: +40 742 919 341"
     },
     whatsapp: "WhatsApp",
     whatsappAria: "Scrie-ne pe WhatsApp",
-    close: "Inchide"
+    close: "Închide"
   },
   hu: {
     langName: "Magyar",
-    title: "Medve Dome | Luxus glamping Hargita megyeben",
-    description: "A Medve Dome egy privat glamping dome Vlahitan, Hargita megyeben, erdei kilatassal, dezsaval, terasszal, kandalloval, grillel es kenyelmes boutique hangulattal.",
-    menuOpen: "Menu megnyitasa",
-    menuClose: "Menu bezarasa",
-    nav: ["Rolunk", "A Dome", "Szolgaltatasok", "Galeria", "Latnivalok", "GYIK", "Foglalas"],
+    title: "Medve Dome | Luxus glamping Hargita megyében",
+    description: "A Medve Dome egy privát glamping dome Vlahitán, Hargita megyében, erdei kilátással, dézsával, terasszal, kandallóval, grillel és kényelmes boutique hangulattal.",
+    menuOpen: "Menü megnyitása",
+    menuClose: "Menü bezárása",
+    nav: ["Rólunk", "A Dome", "Szolgáltatások", "Galéria", "Látnivalók", "Gyakori kérdések", "Foglalás"],
     hero: {
-      eyebrow: "Privat erdei glamping Hargitaban",
-      text: "Luxus camping nyugodt reggelekhez, csillagos estekhez es meleg, kenyelmes piheneshez a termeszet kozeleben.",
-      primary: "Foglalasi keres",
-      secondary: "Galeria"
+      eyebrow: "Privát erdei glamping Hargitában",
+      text: "Luxus camping nyugodt reggelekhez, csillagos estékhez és meleg, kényelmes pihenéshez a természet közelében.",
+      primary: "Foglalási kérés",
+      secondary: "Galéria"
     },
     about: {
-      kicker: "Rolunk",
-      title: "Csendes dome, amely kenyelmesse teszi a termeszet kozelseget.",
-      text: "A termeszet sziveben megbuvo Medve Dome kulonleges luxus glamping elmenyt kinal. Geodezikus dome-unk a modern kenyelmet kapcsolja ossze a termeszet nyers szepsegevel, olyan menedeket teremtve, ahol kiszakadhatsz a hetkoznapokbol es ujra kapcsolodhatsz ahhoz, ami igazan fontos.\n\nMinden reszletet ugy alakitottunk ki, hogy autentikus, megis kenyelmes szabadtéri elmenyt kapj. Amint megerkezel, nyugalom vesz korul, fakkal es a termeszet halk hangjaival.\n\nLegyen szo romantikus pihenesrol, csendes elvonulasrol vagy csaladi kalandrol a termeszetben, a Medve Dome tokeletes hely a felejthetetlen emlekekhez."
+      kicker: "Rólunk",
+      title: "Csendes dome, amely kényelmessé teszi a természet közelségét.",
+      text: "A természet szívében megbúvó Medve Dome különleges luxus glamping élményt kínál. Geodézikus dome-unk a modern kényelmet kapcsolja össze a természet nyers szépségével, olyan menedéket teremtve, ahol kiszakadhatsz a hétköznapokból és újra kapcsolódhatsz ahhoz, ami igazán fontos.\n\nMinden részletet úgy alakítottunk ki, hogy autentikus, mégis kényelmes szabadtéri élményt kapj. Amint megérkezel, nyugalom vesz körül, fákkal és a természet halk hangjaival.\n\nLegyen szó romantikus pihenésről, csendes elvonulásról vagy családi kalandról a természetben, a Medve Dome tökéletes hely a felejthetetlen emlékekhez."
     },
     dome: {
       kicker: "A Dome",
-      title: "Egyetlen privat dome, emlekezetes pihenesekhez.",
-      text: "A dome-ban lent egy franciaagy, a galeria szinten pedig meg egy fekvohely talalhato, ahonnan jobban lathato a teton levo ablak. Fekudj le, nezd a csillagokat, es elvezd a romantikus, elvonult hangulatot.",
+      title: "Egyetlen privát dome, emlékezetes pihenésekhez.",
+      text: "A dome-ban lent egy franciaágy, a galéria szinten pedig még egy fekvőhely található, ahonnan jobban látható a tetőn lévő ablak. Feküdj le, nézd a csillagokat, és élvezd a romantikus, elvonult hangulatot.",
       features: [
-        "Franciaagy es galeria szinti alvohely",
-        "Privat furdo meleg zuhannyal",
-        "Teljesen felszerelt konyha es kinti grill",
-        "Panoramas kilatas",
-        "Terasz, kert, fuggohinta es napagyak",
-        "Privat dezsafurdo",
-        "Kenyelmet ado klimakontroll",
-        "Hangulatvilagitas es konnektorok"
+        "Franciaágy és galéria szinti alvóhely",
+        "Privát fürdő meleg zuhannyal",
+        "Teljesen felszerelt konyha és kinti grill",
+        "Panorámás kilátás",
+        "Terasz, kert, függőhinta és napágyak",
+        "Privát dézsafürdő",
+        "Kényelmet adó klímakontroll",
+        "Hangulatvilágítás és konnektorok"
       ],
-      capacityTitle: "Kapacitas",
-      capacityText: "Paroknak vagy kisebb csaladoknak idealis, dome-unk kenyelmesen legfeljebb 4 vendeget fogad, igy intim es exkluziv elmenyt biztosit.",
-      link: "Elerhetoseg ellenorzese"
+      capacityTitle: "Kapacitás",
+      capacityText: "Pároknak vagy kisebb családoknak ideális, dome-unk kényelmesen legfeljebb 4 vendéget fogad, így intim és exkluzív élményt biztosít.",
+      link: "Elérhetőség ellenőrzése"
     },
     services: {
-      kicker: "Szolgaltatasok",
-      title: "Minden, ami egy konnyu erdei kikapcsolodashoz kell.",
+      kicker: "Szolgáltatások",
+      title: "Minden, ami egy könnyű erdei kikapcsolódáshoz kell.",
       items: [
-        ["Terasz napozoagyakkal", "Pihenj a napon, szundits a fak arnyekaban a fuggohagyban, vagy olvass bent a hintaszekben."],
-        ["Kandallo", "Toltsd az estet csendben, az erdo kozepen, a tuz melege mellett, mikozben hallgatod a fa ropogasat."],
-        ["Kinti grill elmeny", "Keszd el kedvenc eteleidet a kinti grillen, es elvezd a hangulatos estet a szabad eg alatt."],
-        ["Kert es egbolt kilatas", "Aludj az eg alatt, es nezd a csillagokat a sajat kenyelmes agyadbol."],
-        ["Dezsa", "Lazits a dezsaban, korulotted a fak, feletted a csillagok."],
-        ["Kert", "Setalj a birtokon, figyeld a termeszetet, hallgasd a madarakat, vagy pihenj a padon a to mellett."]
+        ["Terasz napozóágyakkal", "Pihenj a napon, szundíts a fák árnyékában a függőágyban, vagy olvass bent a hintaszékben."],
+        ["Kandalló", "Töltsd az estét csendben, az erdő közepén, a tűz melege mellett, miközben hallgatod a fa ropogását."],
+        ["Kinti grill élmény", "Készítsd el kedvenc ételeidet a kinti grillen, és élvezd a hangulatos estét a szabad ég alatt."],
+        ["Kert és égbolt kilátás", "Aludj az ég alatt, és nézd a csillagokat a saját kényelmes ágyadból."],
+        ["Dézsa", "Lazíts a dézsában, körülötted a fák, feletted a csillagok."],
+        ["Kert", "Sétálj a birtokon, figyeld a természetet, hallgasd a madarakat, vagy pihenj a padon a tó mellett."]
       ]
     },
     gallery: {
-      kicker: "Galeria",
-      title: "Pillantas a dome-ra, a kertre es a csendes kinti pillanatokra."
+      kicker: "Galéria",
+      title: "Pillantás a dome-ra, a kertre és a csendes kinti pillanatokra."
     },
     activities: {
-      kicker: "Latnivalok",
-      title: "Valaszthato programok a kornyeken.",
+      kicker: "Látnivalók",
+      title: "Választható programok a környéken.",
       items: [
-        ["Turazas es setak", "Fedezd fel a Madarasi Hargitat, Hargitafurdot, a Vargyas-szorost, a Zetelaki-viztarozot es az erdei utvonalakat szep kilatassal, vizesesekkel, barlangokkal es hidakkal."],
-        ["Szabadidokozpontok es termalfurdok", "Szentegyhazán es Homorodon szabadidokozpontok, medencek, szauna, sosvizes medencek es termeszetes meleg vizes furdok varnak."],
-        ["Gyerekprogramok", "A gyerekek elvezhetik a kertet, a jatekokat es a trambulint. A kozelben van a homorodfurdoi bobpalya, a Balu Park es a Mini Erdely Park."],
-        ["Pihenes", "Tarts igazi szunetet: setalj az erdoben, olvass, meditalj, vagy tolts egy csendes delutant a kertben."],
-        ["Lovaglas", "A kornyeken gyerekeknek es felnotteknek is vannak lovaglasi lehetosegek es vezetett turak."],
-        ["Teli programok", "Hargitafurdo es a Madarasi Hargita kivalo erdelyi sipalyakkal, szanos programokkal, motorosszanos turakkal es korcsolyazasi lehetosegekkel var."]
+        ["Túrázás és séták", "Fedezd fel a Madarasi Hargitát, Hargitafürdőt, a Vargyas-szorost, a Zetelaki-víztározót és az erdei útvonalakat szép kilátással, vízesésekkel, barlangokkal és hidakkal."],
+        ["Szabadidőközpontok és termálfürdők", "Szentegyházán és Homoródon szabadidőközpontok, medencék, szauna, sós vizes medencék és természetes meleg vizes fürdők várnak."],
+        ["Gyerekprogramok", "A gyerekek élvezhetik a kertet, a játékokat és a trambulint. A közelben van a homoródfürdői bobpálya, a Balu Park és a Mini Erdély Park."],
+        ["Pihenés", "Tarts igazi szünetet: sétálj az erdőben, olvass, meditálj, vagy tölts egy csendes délutánt a kertben."],
+        ["Lovaglás", "A környéken gyerekeknek és felnőtteknek is vannak lovaglási lehetőségek és vezetett túrák."],
+        ["Téli programok", "Hargitafürdő és a Madarasi Hargita kiváló erdélyi sípályákkal, szános programokkal, motorosszános túrákkal és korcsolyázási lehetőségekkel vár."]
       ]
     },
     review: {
-      text: "\"Megadja a termeszet minden elonyet, de kozben megvan a boutique hotel kenyelme es a csaladias gondoskodas is.\"",
+      text: "\"Megadja a természet minden előnyét, de közben megvan a boutique hotel kényelme és a családias gondoskodás is.\"",
       source: "Palmer-Grey, Booking.com",
-      sectionKicker: "Velemenyek",
-      sectionTitle: "A vendegek a csendet, a kenyelmet es a csaladias figyelmet szeretik.",
-      showTranslation: "Forditas megjelenitese",
-      hideTranslation: "Forditas elrejtese",
-      translationLabel: "Forditas",
+      sectionKicker: "Vélemények",
+      sectionTitle: "A vendégek a csendet, a kényelmet és a családias figyelmet szeretik.",
+      showTranslation: "Fordítás megjelenítése",
+      hideTranslation: "Fordítás elrejtése",
+      translationLabel: "Fordítás",
       cards: [
-        ["\"Megadja a termeszet minden elonyet, de kozben megvan a boutique hotel kenyelme is.\"", "Palmer-Grey, Booking.com"],
-        ["\"Csend, intimitas es a hazigazdak reszerol mutatott figyelem a reszletekre.\"", "Cezarina, Booking.com"],
-        ["\"Tiszta, apolt, csendes kornyezet, tokeletes pihenesre.\"", "Hunor, Booking.com"],
-        ["\"Intimitas, figyelem a reszletekre, szepseg, vendegszeretet es luxus kenyelem a termeszet kozepen.\"", "Andrea, Booking.com"],
-        ["\"Kiemelkedo vendege ertekeles: 9.8 Booking.com-on es 5.0 Airbnb-n.\"", "Nyilvanos listazasok pontszamai"],
-        ["\"Kempinghangulatu kenyelem mindennel, amire szukseg van, egy csendes, fak kozotti tisztason.\"", "Ioandecean, Booking.com"],
-        ["\"Tiszta, kenyelmes, gyonyoru kilatas es nagyon kedves hazigazda.\"", "Bianca.z, Booking.com"],
-        ["\"Pont olyan, mint a kepeken, baratsagos tulajdonosokkal es figyelmes reszletekkel.\"", "Homsi, Booking.com"],
-        ["\"Egy masfajta elmeny a termeszet sziveben.\"", "Gloria, Booking.com"],
-        ["\"Minden feltetel adott egy sikeres piheneshez.\"", "Florentina, Booking.com"]
+        ["\"Megadja a természet minden előnyét, de közben megvan a boutique hotel kényelme is.\"", "Palmer-Grey, Booking.com"],
+        ["\"Csend, intimitás és a házigazdák részéről mutatott figyelem a részletekre.\"", "Cezarina, Booking.com"],
+        ["\"Tiszta, ápolt, csendes környezet, tökéletes pihenésre.\"", "Hunor, Booking.com"],
+        ["\"Intimitás, figyelem a részletekre, szépség, vendégszeretet és luxus kényelem a természet közepén.\"", "Andrea, Booking.com"],
+        ["\"Kiemelkedő vendég értékelés: 9.8 Booking.com-on és 5.0 Airbnb-n.\"", "Nyilvános listázások pontszámai"],
+        ["\"Kempinghangulatú kényelem mindennel, amire szükség van, egy csendes, fák közötti tisztáson.\"", "Ioandecean, Booking.com"],
+        ["\"Tiszta, kényelmes, gyönyörű kilátás és nagyon kedves házigazda.\"", "Bianca.z, Booking.com"],
+        ["\"Pont olyan, mint a képeken, barátságos tulajdonosokkal és figyelmes részletekkel.\"", "Homsi, Booking.com"],
+        ["\"Egy másfajta élmény a természet szívében.\"", "Gloria, Booking.com"],
+        ["\"Minden feltétel adott egy sikeres pihenéshez.\"", "Florentina, Booking.com"]
       ],
-      links: ["Booking.com velemenyek", "Airbnb hirdetes", "Google Maps"]
+      links: ["Booking.com vélemények", "Airbnb hirdetés", "Google Maps"]
     },
     faq: {
-      kicker: "Kerdesek",
-      title: "Gyakori kerdesek.",
+      kicker: "Kérdések",
+      title: "Gyakori kérdések.",
       items: [
-        ["Van parkolasi lehetoseg?", "Igen, a helyszinen ingyenes parkolas elerheto."],
-        ["Alacsony autoval is megkozelitheto?", "Igen, az ut jo allapotban van, barmilyen autoval megkozelitheto."],
-        ["Van etterem?", "A legkozelebbi ettermek korulbelul 5 km-re vannak, es nehanyan kiszallitast is vallalnak a Dome-hoz."],
-        ["Van etkezesi lehetoseg a szallason?", "Etelt nem biztositunk. Bent van egy konyha, kint pedig grill. A legkozelebbi ettermek es uzletek korulbelul 5 km-re vannak."],
-        ["Lehet grillezni?", "Igen, a faszenet is biztositjuk."],
-        ["Van legkondicionalo a dome-ban?", "Nincs legkondicionalo, de van ventilator a meleg nyari napokra. Kint sok arnyekos pihenohely talalhato."],
-        ["Van terero? WiFi?", "Igen, nagyon jo a terero. Az Orange es a Vodafone mukodik a legjobban. WiFi nincs."],
-        ["Be van keritve a birtok? Vannak medvek?", "A birtok nincs bekeritve, de a kornyek biztonsagos. Leginkabb ozikek es rokak fordulnak elo latogatoban."]
+        ["Van parkolási lehetőség?", "Igen, a helyszínen ingyenes parkolás elérhető."],
+        ["Alacsony autóval is megközelíthető?", "Igen, az út jó állapotban van, bármilyen autóval megközelíthető."],
+        ["Van étterem?", "A legközelebbi éttermek körülbelül 5 km-re vannak, és néhányan kiszállítást is vállalnak a Dome-hoz."],
+        ["Van étkezési lehetőség a szálláson?", "Ételt nem biztosítunk. Bent van egy konyha, kint pedig grill. A legközelebbi éttermek és üzletek körülbelül 5 km-re vannak."],
+        ["Lehet grillezni?", "Igen, a faszenet is biztosítjuk."],
+        ["Van légkondicionáló a dome-ban?", "Nincs légkondicionáló, de van ventilátor a meleg nyári napokra. Kint sok árnyékos pihenőhely található."],
+        ["Van térerő? WiFi?", "Igen, nagyon jó a térerő. Az Orange és a Vodafone működik a legjobban. WiFi nincs."],
+        ["Be van kerítve a birtok? Vannak medvék?", "A birtok nincs bekerítve, de a környék biztonságos. Leginkább őzikék és rókák fordulnak elő látogatóban."]
       ]
     },
     availability: {
-      kicker: "Szabad datumok",
-      title: "Nezd meg a szabad napokat a keres elkuldese elott.",
-      text: "A zold napok elerhetok. A meleg szinnel jelolt napok mar foglaltak vagy nem elerhetok. Kuldd el a kerest, es szemelyesen visszaigazoljuk a datumokat.",
-      prev: "Elozo",
-      next: "Kovetkezo",
-      weekdays: ["Het", "Ked", "Sze", "Csu", "Pen", "Szo", "Vas"],
+      kicker: "Szabad dátumok",
+      title: "Nézd meg a szabad napokat a kérés elküldése előtt.",
+      text: "A zöld napok elérhetők. A meleg színnel jelölt napok már foglaltak vagy nem elérhetők. Küldd el a kérést, és személyesen visszaigazoljuk a dátumokat.",
+      prev: "Előző",
+      next: "Következő",
+      weekdays: ["Hét", "Ked", "Sze", "Csü", "Pén", "Szo", "Vas"],
       available: "Szabad",
       booked: "Foglalt",
-      closed: "Zarva",
-      note: "Valassz egy szabad datumot.",
-      monthNames: ["Januar", "Februar", "Marcius", "Aprilis", "Majus", "Junius", "Julius", "Augusztus", "Szeptember", "Oktober", "November", "December"]
+      closed: "Zárva",
+      note: "Válassz egy szabad dátumot.",
+      monthNames: ["Január", "Február", "Március", "Április", "Május", "Június", "Július", "Augusztus", "Szeptember", "Október", "November", "December"]
     },
     booking: {
-      kicker: "Foglalasi keres",
-      title: "Ird meg, mikor szeretnel erkezni.",
-      text: "Kuldd el az egyszeru kerest, es valaszolunk az elerhetoseggel, arral es a kovetkezo lepesekkel. A leggyorsabb valaszert WhatsAppon is irhatsz.",
-      labels: ["Teljes nev", "Kedvelt kapcsolatfelvetel", "Email, telefon vagy WhatsApp szam", "Erkezes", "Tavozas", "Felnottek", "Gyerekek", "Haziallatok", "Uzenet"],
+      kicker: "Foglalási kérés",
+      title: "Írd meg, mikor szeretnél érkezni.",
+      text: "Küldd el az egyszerű kérést, és válaszolunk az elérhetőséggel, árral és a következő lépésekkel. A leggyorsabb válaszért WhatsAppon is írhatsz.",
+      labels: ["Teljes név", "Kedvelt kapcsolatfelvétel", "Email, telefon vagy WhatsApp szám", "Érkezés", "Távozás", "Felnőttek", "Gyerekek", "Háziállatok", "Üzenet"],
       preferred: ["Email", "Telefon", "WhatsApp"],
       datePlaceholder: "EEEE-HH-NN",
-      placeholder: "Ird meg, ha van barmi fontos a pihenessel kapcsolatban.",
-      button: "Keres elkuldese",
-      note: "A keresed kozvetlenul a Medve Dome-hoz erkezik.",
-      sent: "Koszonjuk. A keresed elkuldve, hamarosan felvesszuk veled a kapcsolatot.",
-      sending: "Keres kuldese...",
-      sendError: "Valami nem sikerult. Kerjuk, irj WhatsAppon vagy emailben: info.medvedome@gmail.com.",
-      subject: "Foglalasi keres a Medve Dome-hoz",
-      emailIntro: "Kedves Medve Dome,\n\nSzeretnek foglalasi kerest kuldeni.",
-      emailFields: ["Nev", "Email vagy telefon", "Erkezes", "Tavozas", "Felnottek", "Gyerekek", "Haziallatok", "Kedvelt kapcsolatfelvetel", "Uzenet"]
+      placeholder: "Írd meg, ha van bármi fontos a pihenéssel kapcsolatban.",
+      button: "Kérés elküldése",
+      note: "A kérésed közvetlenül a Medve Dome-hoz érkezik.",
+      sent: "Köszönjük. A kérésed elküldve, hamarosan felvesszük veled a kapcsolatot.",
+      sending: "Kérés küldése...",
+      sendError: "Valami nem sikerült. Kérjük, írj WhatsAppon vagy emailben: info.medvedome@gmail.com.",
+      subject: "Foglalási kérés a Medve Dome-hoz",
+      emailIntro: "Kedves Medve Dome,\n\nSzeretnék foglalási kérést küldeni.",
+      emailFields: ["Név", "Email vagy telefon", "Érkezés", "Távozás", "Felnőttek", "Gyerekek", "Háziállatok", "Kedvelt kapcsolatfelvétel", "Üzenet"]
     },
     bookingPage: {
-      heroKicker: "Foglalasi keres",
-      heroTitle: "Medve Dome foglalas",
-      heroText: "Nezd at a fontos reszleteket, valaszd ki a kivant datumokat, es kuldd el a kerest. Felvesszuk veled a kapcsolatot a kovetkezo lepesekkel.",
-      contact: "Vlahita, Hargita megye, Romania",
-      priceFrom: "Ettol",
+      heroKicker: "Foglalási kérés",
+      heroTitle: "Medve Dome foglalás",
+      heroText: "Nézd át a fontos részleteket, válaszd ki a kívánt dátumokat, és küldd el a kérést. Felvesszük veled a kapcsolatot a következő lépésekkel.",
+      contact: "Vlahita, Hargita megye, Románia",
+      priceFrom: "Ettől",
       priceValue: "650 LEI",
-      priceNight: "Ejszakankent",
+      priceNight: "Éjszakánként",
       propertiesTitle: "Adatok",
-      propertyLabels: ["Kapacitas:", "Meret:", "Agyak:"],
-      propertyValues: ["4", "28 m2", "1 franciaagy, 1 queen agy"],
-      checkTitle: "Erkezes es tavozas",
-      checkLabels: ["Erkezes", "Tavozas"],
+      propertyLabels: ["Kapacitás:", "Méret:", "Ágyak:"],
+      propertyValues: ["4", "28 m²", "1 franciaágy, 1 queen ágy"],
+      checkTitle: "Érkezés és távozás",
+      checkLabels: ["Érkezés", "Távozás"],
       checkValues: ["14:00", "12:00"],
-      termsTitle: "Feltetelek",
-      termsLabels: ["Kozvetlen keres", "Eloleg"],
-      termsValues: ["Minden pihenest szemelyesen igazolunk vissza", "20% a foglalas veglegesitesehez"],
+      termsTitle: "Feltételek",
+      termsLabels: ["Közvetlen kérés", "Előleg"],
+      termsValues: ["Minden pihenést személyesen igazolunk vissza", "20% a foglalás véglegesítéséhez"],
       importantTitle: "Fontos",
       importantItems: [
-        "A dezsa benne van az arban.",
-        "A foglalasi urlap kitoltese utan felvesszuk veled a kapcsolatot, es elkuldjuk a foglalas reszleteit.",
-        "A foglalas csak a <strong>20% eloleg</strong> befizetese utan vegleges, Revolut, internetes bankolas vagy banki atutalas utjan.",
-        "A teljes osszeg az erkezes napjan fizetendo.",
-        "Lemondas eseten az eloleg teljesen visszajar, ha a lemondas legalabb <strong>7 nappal</strong> az erkezes elott tortenik.",
-        "Atfoglalas a szabad helyek fuggvenyeben lehetseges, legalabb <strong>5 nappal</strong> elore jelezve.",
-        "Haziallatokat szivesen fogadunk. Kerjuk, add meg a haziallatok szamat is a keresben.",
-        "<strong>Dohanyzas:</strong> A dome belsejeben tilos a dohanyzas. Csak kint/teraszon megengedett, a tisztasag es biztonsag betartasaval.",
-        "<strong>Cipo bent:</strong> Kinti cipot nem lehet bent viselni. Kerjuk, hasznald a biztositott papucsokat."
+        "A dézsa benne van az árban.",
+        "A foglalási űrlap kitöltése után felvesszük veled a kapcsolatot, és elküldjük a foglalás részleteit.",
+        "A foglalás csak a <strong>20% előleg</strong> befizetése után végleges, Revolut, internetes bankolás vagy banki átutalás útján.",
+        "A teljes összeg az érkezés napján fizetendő.",
+        "Lemondás esetén az előleg teljesen visszajár, ha a lemondás legalább <strong>7 nappal</strong> az érkezés előtt történik.",
+        "Átfoglalás a szabad helyek függvényében lehetséges, legalább <strong>5 nappal</strong> előre jelezve.",
+        "Háziállatokat szívesen fogadunk. Kérjük, add meg a háziállatok számát is a kérésben.",
+        "<strong>Dohányzás:</strong> A dome belsejében tilos a dohányzás. Csak kint/teraszon megengedett, a tisztaság és biztonság betartásával.",
+        "<strong>Cipő bent:</strong> Kinti cipőt nem lehet bent viselni. Kérjük, használd a biztosított papucsokat."
       ],
-      moreKicker: "Tovabbi informaciok",
-      moreTitle: "Kenyelem, meleg es kilatas az egboltra.",
+      moreKicker: "További információk",
+      moreTitle: "Kényelem, meleg és kilátás az égboltra.",
       moreText: [
-        "A Medve Dome lent egy franciaaggyal es a galeria szinten egy masik fekvohellyel van felszerelve, ahonnan jobban lathato a teton levo ablak. Innen nezheted az eget es a csillagokat, ami igazan emlekezetes es romantikus elmeny lehet.",
-        "A dome-ban fakalyha es sajat furdo talalhato modern Eco-toalettel, amely kevesebb vizet hasznal. A konyha fozeshez felszerelt. Torolkozok, parnak, paplanok, agynemu es takarok ingyenesen biztositottak, illatmentes, organikus es vegyszermentes mososzerrel mosva. Organikus szappant, tusfurdot es extra WC-papirt is biztositunk."
+        "A Medve Dome lent egy franciaággyal és a galéria szinten egy másik fekvőhellyel van felszerelve, ahonnan jobban látható a tetőn lévő ablak. Innen nézheted az eget és a csillagokat, ami igazán emlékezetes és romantikus élmény lehet.",
+        "A dome-ban fakályha és saját fürdő található modern Eco-toalettel, amely kevesebb vizet használ. A konyha főzéshez felszerelt. Törölközők, párnák, paplanok, ágynemű és takarók ingyenesen biztosítottak, illatmentes, organikus és vegyszermentes mosószerrel mosva. Organikus szappant, tusfürdőt és extra WC-papírt is biztosítunk."
       ],
-      amenitiesKicker: "Felszereltseg",
-      amenitiesTitle: "A pihenes resze.",
-      amenities: ["Zuhany", "Konyha", "Torolkozok", "Ventilator", "Grill", "Hutoszekreny", "Egbolt ablak", "Terasz", "Fakalyha", "Dezsa", "Napozoagyak", "Agynemu", "Kave", "Sutemeny", "So es bors", "Jatekok", "Papucs", "Organikus szappan"],
-      policiesKicker: "Szabalyok",
-      policiesTitle: "Foglalasi szabalyzat",
+      amenitiesKicker: "Felszereltség",
+      amenitiesTitle: "A pihenés része.",
+      amenities: ["Zuhany", "Konyha", "Törölközők", "Ventilátor", "Grill", "Hűtőszekrény", "Égbolt ablak", "Terasz", "Fakályha", "Dézsa", "Napozóágyak", "Ágynemű", "Kávé", "Sütemény", "Só és bors", "Játékok", "Papucs", "Organikus szappan"],
+      policiesKicker: "Szabályok",
+      policiesTitle: "Foglalási szabályzat",
       policyItems: [
-        ["Dezsa:", "A dezsa benne van az arban, es csak a kapott utasitasok szerint hasznalhato. A viz felmelegitese idot vesz igenybe, ezert kerjuk, elore jelezd, ha hasznalni szeretned."],
-        ["Dohanyzas:", "A dome belsejeben tilos a dohanyzas. Csak kint/teraszon megengedett, a tisztasag es biztonsag betartasaval."],
-        ["Cipo bent:", "Kinti cipot nem lehet bent viselni. Kerjuk, hasznald a biztositott papucsokat."]
+        ["Dézsa:", "A dézsa benne van az árban, és csak a kapott utasítások szerint használható. A víz felmelegítése időt vesz igénybe, ezért kérjük, előre jelezd, ha használni szeretnéd."],
+        ["Dohányzás:", "A dome belsejében tilos a dohányzás. Csak kint/teraszon megengedett, a tisztaság és biztonság betartásával."],
+        ["Cipő bent:", "Kinti cipőt nem lehet bent viselni. Kérjük, használd a biztosított papucsokat."]
       ],
       contactKicker: "Kapcsolat",
-      contactTitle: "Vlahitan, Hargita megyeben talalsz minket."
+      contactTitle: "Vlahitán, Hargita megyében találsz minket."
     },
     footer: {
       kicker: "Kapcsolat",
-      location: "Vlahita, Hargita megye, Romania",
+      location: "Vlahita, Hargita megye, Románia",
       phone: "Tel: +40 742 919 341"
     },
     whatsapp: "WhatsApp",
-    whatsappAria: "Uzenet kuldese WhatsAppon",
-    close: "Bezaras"
+    whatsappAria: "Üzenet küldése WhatsAppon",
+    close: "Bezárás"
   }
 };
 
@@ -1075,7 +1108,7 @@ function applyLanguage(language) {
   setText(".site-footer p:nth-of-type(3) a", t.footer.phone);
   setText(".whatsapp-float", t.whatsapp);
   document.querySelector(".whatsapp-float").setAttribute("aria-label", t.whatsappAria);
-  lightboxClose.textContent = t.close;
+  lightboxClose.textContent = "\u00d7";
   lightboxClose.setAttribute("aria-label", t.close);
   menuButton.setAttribute("aria-label", siteNav.classList.contains("is-open") ? t.menuClose : t.menuOpen);
 
@@ -1210,6 +1243,10 @@ if (galleryVideos.length) {
     const videoObserver = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
+          if (entry.target.dataset.src && !entry.target.src) {
+            entry.target.src = entry.target.dataset.src;
+            entry.target.load();
+          }
           entry.target.play().catch(() => {});
         } else {
           entry.target.pause();
@@ -1219,7 +1256,13 @@ if (galleryVideos.length) {
 
     galleryVideos.forEach((video) => videoObserver.observe(video));
   } else {
-    galleryVideos.forEach((video) => video.play().catch(() => {}));
+    galleryVideos.forEach((video) => {
+      if (video.dataset.src && !video.src) {
+        video.src = video.dataset.src;
+        video.load();
+      }
+      video.play().catch(() => {});
+    });
   }
 }
 

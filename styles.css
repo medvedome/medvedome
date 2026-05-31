@@ -52,6 +52,15 @@ body {
   line-height: 1.6;
 }
 
+html[lang="ro"] body,
+html[lang="hu"] body,
+html[lang="ro"] .review-translate-button,
+html[lang="hu"] .review-translate-button,
+html[lang="ro"] .calendar-day em,
+html[lang="hu"] .calendar-day em {
+  font-family: "Wix Madefor Text", ui-sans-serif, system-ui, sans-serif;
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -668,6 +677,7 @@ h3 {
   font-weight: 800;
   letter-spacing: 0.08em;
   text-transform: uppercase;
+  text-decoration: none;
   cursor: pointer;
 }
 
@@ -691,10 +701,10 @@ h3 {
 
 .review-modal-card {
   position: relative;
-  width: min(580px, 100%);
-  max-height: min(620px, calc(100vh - 44px));
+  width: min(680px, 100%);
+  max-height: min(680px, calc(100vh - 44px));
   overflow: auto;
-  padding: clamp(28px, 5vw, 44px);
+  padding: clamp(24px, 4vw, 38px);
   border: 1px solid rgba(31, 38, 33, 0.18);
   background: var(--paper);
   box-shadow: 0 28px 90px rgba(0, 0, 0, 0.22);
@@ -713,11 +723,11 @@ h3 {
 }
 
 .review-modal blockquote {
-  margin: 18px 0;
+  margin: 14px 0;
   color: var(--ink);
   font-family: "Didot Wix Italic", "Cormorant Garamond Wix", Georgia, "Times New Roman", serif;
-  font-size: clamp(1.7rem, 4vw, 2.6rem);
-  line-height: 1.2;
+  font-size: clamp(1.05rem, 1.8vw, 1.35rem);
+  line-height: 1.45;
 }
 
 .review-modal cite {
@@ -1541,7 +1551,7 @@ textarea {
 .lightbox {
   position: fixed;
   inset: 0;
-  z-index: 30;
+  z-index: 1200;
   display: none;
   align-items: center;
   justify-content: center;
@@ -1563,13 +1573,23 @@ textarea {
   position: absolute;
   top: 18px;
   right: 18px;
-  min-height: 42px;
-  padding: 0 16px;
+  z-index: 1;
+  display: grid;
+  place-items: center;
+  width: 48px;
+  height: 48px;
+  padding: 0;
   border: 1px solid rgba(255, 255, 255, 0.35);
-  border-radius: 999px;
+  border-radius: 50%;
   color: var(--white);
-  background: transparent;
+  background: rgba(0, 0, 0, 0.48);
+  font-size: 2rem;
+  line-height: 1;
   cursor: pointer;
+}
+
+.lightbox-close:hover {
+  background: rgba(0, 0, 0, 0.72);
 }
 
 @media (max-width: 920px) {
@@ -1719,6 +1739,21 @@ textarea {
 }
 
 @media (max-width: 560px) {
+  .review-modal {
+    padding: 14px;
+  }
+
+  .review-modal-card {
+    max-height: calc(100vh - 28px);
+    padding: 22px 18px;
+  }
+
+  .review-modal blockquote {
+    margin: 12px 0;
+    font-size: 1rem;
+    line-height: 1.42;
+  }
+
   .site-header {
     padding: 14px 16px;
   }
