@@ -127,7 +127,7 @@
               </div>
             </div>
           </div>
-          <div class="form-row three">
+          <div class="form-row">
             <label>
               Adults
               <input type="number" name="adults" min="1" max="4" value="2" required>
@@ -135,10 +135,6 @@
             <label>
               Children
               <input type="number" name="children" min="0" max="3" value="0" required>
-            </label>
-            <label>
-              Pets
-              <input type="number" name="pets" min="0" max="3" value="0" required>
             </label>
           </div>
           <label>
@@ -203,7 +199,6 @@
           <li>Full payment is made on the day of your check-in.</li>
           <li>In case of cancellation, the full deposit is returnable if cancellation is made <strong>7 days</strong> before check-in.</li>
           <li>Rescheduling is possible depending on availability, with at least <strong>5 days' notice</strong>.</li>
-          <li>Pets are welcome. Please include the number of pets in your request.</li>
           <li><strong>Smoking:</strong> Smoking is not allowed inside the dome. It is only permitted outside/on the terrace, while respecting cleanliness and safety.</li>
           <li><strong>Shoes inside:</strong> Outdoor shoes are not allowed inside. Please use the indoor slippers provided.</li>
         </ul>
@@ -273,7 +268,7 @@
     availabilityScript.src = `availability.js?v=${Date.now()}`;
     availabilityScript.onload = () => {
       const mainScript = document.createElement("script");
-      mainScript.src = "script.js?v=20260531-5";
+      mainScript.src = "script.js?v=20261009-1";
       document.body.appendChild(mainScript);
     };
     document.body.appendChild(availabilityScript);

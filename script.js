@@ -316,7 +316,7 @@ const translations = {
       kicker: "Booking Request",
       title: "Tell us when you would like to stay.",
       text: "Send a simple request and we will reply with availability, price and next steps. For the fastest answer, you can also message us on WhatsApp.",
-      labels: ["Full name", "Preferred contact", "Email, phone or WhatsApp number", "Check-in", "Check-out", "Adults", "Children", "Pets", "Message"],
+      labels: ["Full name", "Preferred contact", "Email, phone or WhatsApp number", "Check-in", "Check-out", "Adults", "Children", "Message"],
       preferred: ["Email", "Phone", "WhatsApp"],
       datePlaceholder: "YYYY-MM-DD",
       placeholder: "Tell us anything important about your stay.",
@@ -327,7 +327,7 @@ const translations = {
       sendError: "Something went wrong. Please message us on WhatsApp or email info.medvedome@gmail.com.",
       subject: "Booking request for Medve Dome",
       emailIntro: "Hello Medve Dome,\n\nI would like to request a stay.",
-      emailFields: ["Name", "Email or phone", "Check-in", "Check-out", "Adults", "Children", "Pets", "Preferred contact", "Message"]
+      emailFields: ["Name", "Email or phone", "Check-in", "Check-out", "Adults", "Children", "Preferred contact", "Message"]
     },
     bookingPage: {
       heroKicker: "Booking Request",
@@ -354,7 +354,6 @@ const translations = {
         "Full payment is made on the day of your check-in.",
         "In case of cancellation, the full deposit is returnable if cancellation is made <strong>7 days</strong> before check-in.",
         "Rescheduling is possible depending on availability, with at least <strong>5 days' notice</strong>.",
-        "Pets are welcome. Please include the number of pets in your request.",
         "<strong>Smoking:</strong> Smoking is not allowed inside the dome. It is only permitted outside/on the terrace, while respecting cleanliness and safety.",
         "<strong>Shoes inside:</strong> Outdoor shoes are not allowed inside. Please use the indoor slippers provided."
       ],
@@ -503,7 +502,7 @@ const translations = {
       kicker: "Cerere de rezervare",
       title: "Spune-ne când ai vrea să vii.",
       text: "Trimite o cerere simplă și îți vom răspunde cu disponibilitatea, prețul și pașii următori. Pentru cel mai rapid răspuns, ne poți scrie și pe WhatsApp.",
-      labels: ["Nume complet", "Metoda preferată de contact", "Email, telefon sau număr WhatsApp", "Check-in", "Check-out", "Adulți", "Copii", "Animale de companie", "Mesaj"],
+      labels: ["Nume complet", "Metoda preferată de contact", "Email, telefon sau număr WhatsApp", "Check-in", "Check-out", "Adulți", "Copii", "Mesaj"],
       preferred: ["Email", "Telefon", "WhatsApp"],
       datePlaceholder: "AAAA-LL-ZZ",
       placeholder: "Scrie-ne orice detaliu important despre șederea ta.",
@@ -514,7 +513,7 @@ const translations = {
       sendError: "Ceva nu a funcționat. Te rugăm să ne scrii pe WhatsApp sau la info.medvedome@gmail.com.",
       subject: "Cerere de rezervare pentru Medve Dome",
       emailIntro: "Bună, Medve Dome,\n\nAș dori să trimit o cerere de rezervare.",
-      emailFields: ["Nume", "Email sau telefon", "Check-in", "Check-out", "Adulți", "Copii", "Animale de companie", "Metoda preferată de contact", "Mesaj"]
+      emailFields: ["Nume", "Email sau telefon", "Check-in", "Check-out", "Adulți", "Copii", "Metoda preferată de contact", "Mesaj"]
     },
     bookingPage: {
       heroKicker: "Cerere de rezervare",
@@ -541,7 +540,6 @@ const translations = {
         "Plata integrală se face în ziua check-in-ului.",
         "În caz de anulare, avansul se returnează integral dacă anularea se face cu <strong>7 zile</strong> înainte de check-in.",
         "Reprogramarea este posibilă în funcție de disponibilitate, cu cel puțin <strong>5 zile</strong> înainte.",
-        "Animalele de companie sunt binevenite. Te rugăm să incluzi numărul lor în cerere.",
         "<strong>Fumatul:</strong> Fumatul este interzis în interiorul domului. Este permis doar afară/pe terasă, cu respectarea curățeniei și siguranței.",
         "<strong>Încălțăminte:</strong> Nu este permis să purtați încălțăminte de exterior în interior. Vă rugăm să folosiți papucii furnizați."
       ],
@@ -690,7 +688,7 @@ const translations = {
       kicker: "Foglalási kérés",
       title: "Írd meg, mikor szeretnél érkezni.",
       text: "Küldd el az egyszerű kérést, és válaszolunk az elérhetőséggel, árral és a következő lépésekkel. A leggyorsabb válaszért WhatsAppon is írhatsz.",
-      labels: ["Teljes név", "Kedvelt kapcsolatfelvétel", "Email, telefon vagy WhatsApp szám", "Érkezés", "Távozás", "Felnőttek", "Gyerekek", "Háziállatok", "Üzenet"],
+      labels: ["Teljes név", "Kedvelt kapcsolatfelvétel", "Email, telefon vagy WhatsApp szám", "Érkezés", "Távozás", "Felnőttek", "Gyerekek", "Üzenet"],
       preferred: ["Email", "Telefon", "WhatsApp"],
       datePlaceholder: "EEEE-HH-NN",
       placeholder: "Írd meg, ha van bármi fontos a pihenéssel kapcsolatban.",
@@ -701,7 +699,7 @@ const translations = {
       sendError: "Valami nem sikerült. Kérjük, írj WhatsAppon vagy emailben: info.medvedome@gmail.com.",
       subject: "Foglalási kérés a Medve Dome-hoz",
       emailIntro: "Kedves Medve Dome,\n\nSzeretnék foglalási kérést küldeni.",
-      emailFields: ["Név", "Email vagy telefon", "Érkezés", "Távozás", "Felnőttek", "Gyerekek", "Háziállatok", "Kedvelt kapcsolatfelvétel", "Üzenet"]
+      emailFields: ["Név", "Email vagy telefon", "Érkezés", "Távozás", "Felnőttek", "Gyerekek", "Kedvelt kapcsolatfelvétel", "Üzenet"]
     },
     bookingPage: {
       heroKicker: "Foglalási kérés",
@@ -728,7 +726,6 @@ const translations = {
         "A teljes összeg az érkezés napján fizetendő.",
         "Lemondás esetén az előleg teljesen visszajár, ha a lemondás legalább <strong>7 nappal</strong> az érkezés előtt történik.",
         "Átfoglalás a szabad helyek függvényében lehetséges, legalább <strong>5 nappal</strong> előre jelezve.",
-        "Háziállatokat szívesen fogadunk. Kérjük, add meg a háziállatok számát is a kérésben.",
         "<strong>Dohányzás:</strong> A dome belsejében tilos a dohányzás. Csak kint/teraszon megengedett, a tisztaság és biztonság betartásával.",
         "<strong>Cipő bent:</strong> Kinti cipőt nem lehet bent viselni. Kérjük, használd a biztosított papucsokat."
       ],
@@ -1322,10 +1319,9 @@ bookingForm.addEventListener("submit", async (event) => {
     `${t.emailFields[3]}: ${data.get("checkout")}`,
     `${t.emailFields[4]}: ${data.get("adults")}`,
     `${t.emailFields[5]}: ${data.get("children")}`,
-    `${t.emailFields[6]}: ${data.get("pets")}`,
-    `${t.emailFields[7]}: ${preferred}`,
+    `${t.emailFields[6]}: ${preferred}`,
     "",
-    `${t.emailFields[8]}:`,
+    `${t.emailFields[7]}:`,
     data.get("message") || "-"
   ].join("\n");
 
@@ -1351,7 +1347,6 @@ bookingForm.addEventListener("submit", async (event) => {
         check_out: data.get("checkout"),
         adults: data.get("adults"),
         children: data.get("children"),
-        pets: data.get("pets"),
         message: data.get("message") || "-",
         full_request: body
       })
